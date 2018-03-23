@@ -9,10 +9,12 @@ PHIS is part of SILEX collaborative meta-project developped at MISTEA joint rese
 More information on SILEX is availbale at [SILEX wiki](https://mulcyber.toulouse.inra.fr/plugins/mediawiki/wiki/silex/index.php/Accueil "SILEX wiki Main Page").
 
 ## Contributors
-Contributors to this documentation are agents of the joint research unit MISTEA (INRA - SupAgro) in Montpellier :
-- Anne Tireau
-- Morgane Vidal
+Contributors to this documentation are agents of the joint research units MISTEA (INRA - SupAgro) and LEPSE in Montpellier :
+
 - Pierre-Etienne Alary
+- Morgane Vidal
+- Anne Tireau
+- Llorenç Cabrera-Bosquet
 
 Every PHIS2 user is welcomed to enrich this repository with its experience of the information system.
 

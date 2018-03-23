@@ -7,6 +7,8 @@ extra_css:
 pages:
    - Home: index.md
    - Experimental Organization: experimental-organization.md
-   - Data: Data.md
+   - Data: datamenu.md
    - Community: community.md
-   - Tools: Tools.md
+   - Tools: tools.md
+   - Events: events.md
+   - Object tracking: object-tracking-example.md

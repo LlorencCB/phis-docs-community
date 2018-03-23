@@ -27,6 +27,7 @@ Images can be displayed and scrolled by clicking in the <a href="#"> <span class
 Advanced data querying allows rapid and efficient visualisation of images and monitoring variables guided by filtering tools based on semantics and rules such as mathematical operators.
 
 ##Graphic visualisation
+
 The graphic visualisation menu contains features for displaying images, dynamic graphs of static or time courses of phenotypic and environmental variables, which are automatically adapted to the particular experimental settings and variables, such as greenhouse or field. For instance, the users may request a dynamic visualization of image analyses and watering results based on different filtering options (image angles, genotypes, plants, treatments). Such interactive figures allow exploring dynamic variables over time (e.g. plant area or water-use). 
 
 Graphs can be zoomed into a particular time window, and clicking on a data point automatically displays the images associated to this point together with the associated annotations. Raw images, segmented images and metadata can be displayed in both field and greenhouse experiments. The interaction with the knowledge layer allows projecting variables using GPS coordinates associated to plants or plots in field experiments and linking data with environmental sensor outputs. 
@@ -34,7 +35,15 @@ Graphs can be zoomed into a particular time window, and clicking on a data point
 Graphs can be exported into different formats (i.e. PDF, JPG, PNG, SVG). 
 
 ##Data Analysis
-PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing (R Markdown). Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods). For instance the progression of thermal time for each individual plant or plot can be calculated taking into account the local air or leaf temperatures), the dates of sowing and the given method to perform such calculation. 
+
+PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing (R Markdown). Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods). 
+
+![Data analysis menu](img/data_analysis.png)
+
+For instance, a `Thermal Time Calculation Report` allows calculating the progression of thermal time for each `experiment`, taking into account diffrent parameters like the `species`, the `method` used (e.g. baseline temperature or Parent *et al*. method) the `event` to start computation (e.g. sowing, emergence,thinning) or a given calendar date, and `temperature data` (air or leaf temperatures)
+
+![Data analysis menu](img/thermal_time_report.png)
 
 ##Workflows
+
 Computational analysis and workflows can be run through the scientific platform Galaxy [(https://galaxyproject.org/)](https://galaxyproject.org/)

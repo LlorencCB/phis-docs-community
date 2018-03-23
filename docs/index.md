@@ -9,17 +9,18 @@ The present documentation is a resource material related to the Phis version dev
 ![phis-architecture](img/phis-architecture.png)
 
 ## Contributors
-Contributors to this documentation are agents of the joint research unit MISTEA (INRA - SupAgro) in Montpellier :
+Contributors to this documentation are agents of the joint research units MISTEA (INRA - SupAgro) and LEPSE in Montpellier :
 
 - Pierre-Etienne Alary
 - Morgane Vidal
 - Anne Tireau
+- Llorenç Cabrera-Bosquet
 
-Every Phis user is welcomed to enrich this repository with her/his experience of the information system.
+Every OHIS user is welcomed to enrich this repository with her/his experience of the information system.
 
 ## Issues
 This documentation is currently under developpement.
-If a Phis user wish to point out a flaw in this documentation, he is welcomed to do so in this repository's [GitHub issues](https://github.com/OpenSILEX/phis2-docs-community/issues).
+If a PHIS user wish to point out a flaw in this documentation, he is welcomed to do so in this repository's [GitHub issues](https://github.com/OpenSILEX/phis2-docs-community/issues).
 Concerning issues with Phis itself, users are invited to report them via another channel, which has not been set up to this day.
 
 ## Version

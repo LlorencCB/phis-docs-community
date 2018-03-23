@@ -1,5 +1,10 @@
 # Experimental Organization
 
+<video width="320" height="240" controls>
+ <source src="/vid/ExperimentalOrganisation.mp4" type='video/mp4'>
+Your browser does not support the video tag.
+</video> 
+
 ## Projects
 
 ### What are projects ?

@@ -72,8 +72,8 @@ Both public information and password can be changed after clicking on the <span 
 ### Get an access to Phis
 For those that do not own a Phis account, they can ask a account to be created by either :
 
-- a Phis user diplaying administrator rights
-- a Phis manager (see *README.md* for Phis managers contact)
+- a PHIS user diplaying administrator rights
+- a PHIS manager (see *README.md* for Phis managers contact)
 
 ## Access rights
 

@@ -1,4 +1,4 @@
-#Object tracking
+# Object tracking
 The Experimental Organization menu contains a `Scientific Object Tracking tool`. 
 
 Searching filters allow selecting for scientfic objects such as plants, plots or organs or keywords.
@@ -30,7 +30,7 @@ Selected objects can be visualised by clicking on the shopping car icon <a href=
 
 Once the objects are in the basket, different analyses ca be performed:
 
-###Trait comparison
+### Trait comparison
 For instance different traits such as leaf area or plant height can be compared between selected objects
  <div class="form-group">
   <label for="sel1">Action</label>
@@ -45,7 +45,7 @@ For instance different traits such as leaf area or plant height can be compared 
 
 ![](img/objecttrack3.png)
 
-###Object inspection
+### Object inspection
 
 The different icons on the right side of each selected object allow different actions:
 

@@ -1,5 +1,5 @@
-site_name: PHIS2
-theme: bootstrap
+site_name: PHIS
+#theme: bootstrap
 extra_css:
    - "css/bootstrap.css"
    - "css/site.css"
@@ -7,4 +7,6 @@ extra_css:
 pages:
    - Home: index.md
    - Experimental Organization: experimental-organization.md
+   - Data: Data.md
    - Community: community.md
+   - Tools: Tools.md

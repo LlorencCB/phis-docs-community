@@ -16,12 +16,12 @@ Contributors to this documentation are agents of the joint research units MISTEA
 - Anne Tireau
 - Llorenç Cabrera-Bosquet
 
-Every OHIS user is welcomed to enrich this repository with her/his experience of the information system.
+Every PHIS user is welcomed to enrich this repository with her/his experience of the information system.
 
 ## Issues
 This documentation is currently under developpement.
-If a PHIS user wish to point out a flaw in this documentation, he is welcomed to do so in this repository's [GitHub issues](https://github.com/OpenSILEX/phis2-docs-community/issues).
-Concerning issues with Phis itself, users are invited to report them via another channel, which has not been set up to this day.
+If a PHIS user wish to point out a flaw in this documentation, he/she is welcomed to do so in this repository [GitHub issues](https://github.com/OpenSILEX/phis2-docs-community/issues).
+Concerning issues with PHIS itself, users are invited to report them via another channel, which has not been set up to this day.
 
 ## Version
 &copy; INRA MISTEA 2014-2018 (SILEX-PHIS v.2.2 - 18 January 2018)

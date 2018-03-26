@@ -2,11 +2,12 @@
 
 ## Persons
 
-### Persons properties
-Phis community is composed of persons which can be either:
+### Persons' properties
 
-- **persons** uniquely identified by their email. Persons have to be created within Phis before being refered to within projects and expertiments.
-- **users**, term refering to persons linked to a Phis account: they are provided with a password that they can change at any time. Phis users are either classic users or administrators (admin).
+PHIS community is composed of persons which can be either:
+
+- **persons** uniquely identified by their email. Persons have to be created within PHIS before being refered to within projects and expertiments.
+- **users**, term refering to persons linked to a PHIS account: they are provided with a password that they can change at any time. PHIS users are either classic users or administrators (admin).
 
 ### Create a person
 Within the `Persons` menu, a user can create a new person with the
@@ -17,8 +18,8 @@ The mandatory fields, followed by a red asterisk, are:
 - Email
 - Affiliation
 
-This section provides information on how to create a person, which can be either a person not related to a Phis account, either a new Phis user.
-Only administrators can create a user from Phis.
+This section provides information on how to create a person, which can be either a person not related to a PHIS account, either a new PHIS user.
+Only administrators can create a user from PHIS.
 Three fields from the `Create Person` page are visible only to admin users:
 
 - Password
@@ -26,19 +27,19 @@ Three fields from the `Create Person` page are visible only to admin users:
 - Groups
 
 Those field are highlighted below with the `(Admin only)` tag.
-if the field **Password** remains empty, a person without a Phis account is created.
-Otherwise, a Phis user is created.
+if the field **Password** remains empty, a person without a PHIS account is created.
+Otherwise, a PHIS user is created.
 
 ![create-person-email](img/create-person_email.png)
 
 At any time, a person without an account can be changed into a user by an administrator modifying its **Password** field after clicking on the <span class="btn btn-primary">Update</span> button above its information sheet.
 
 `Email`. The email address used to uniquely identify a person.
-In the case of a person that is also a Phis user, the email provided is used as **username**.
+In the case of a person that is also a PHIS user, the email provided is used as **username**.
 For now, the email provided does not necessarily have to be an existing email address: there's no check or email confirmation asked for.
 
 `Password (Admin only)`.
-If this field is left blank, a person without a Phis account is created, otherwise a user is created.
+If this field is left blank, a person without a PHIS account is created, otherwise a user is created.
 The new user is provided with a potentially temporary password which can be modified.
 
 `First Name`. Given Name (Forename) of the person.
@@ -60,20 +61,20 @@ In the case of a non-user person creation, ticking this box has no effect until 
 ![create-person-admin](img/create-person_admin.png)
 
 `Groups (Admin only)`.
-Names of the Phis groups in which the new person will be included.
+Names of the PHIS groups in which the new person will be included.
 This field in the user creation is crucial, but can also be modified at a later time.
-Groups are selected from a the predefined list of groups found in Phis.
+Groups are selected from a the predefined list of groups found in PHIS.
 Moreover, when a new group is created, an existing person can be added to it from the **Group Creation** page.
 
 ### Manage a user account
 From the `Persons` menu, a user can manage its own account after clicking on the eye icon on the right of its name in order to view its personal information sheet.
 Both public information and password can be changed after clicking on the <span class="btn btn-primary">Update</span> button.
 
-### Get an access to Phis
-For those that do not own a Phis account, they can ask a account to be created by either :
+### Get an access to PHIS
+For those that do not own a PHIS account, they can ask a account to be created by either :
 
 - a PHIS user diplaying administrator rights
-- a PHIS manager (see *README.md* for Phis managers contact)
+- a PHIS manager (see *README.md* for PHIS managers contact)
 
 ## Access rights
 
@@ -88,12 +89,12 @@ An admin are usually platform or installation managers, as well as data managers
 There is generally no more than one or two admin per platform.
 
 ### Restrictions to a group
-A given information can be visible to specific groups. A Phis user not belonging to those groups will not be able to view the data linked to them.
+A given information can be visible to specific groups. A PHIS user not belonging to those groups will not be able to view the data linked to them.
 The concepts that can be assigned to groups are experiments and the agronomical objects it contains.
 Currently, access rights are managed by experiment.
 
 ### Public data
-An information assigned to no group is by default set as public. For instance, an experiment not belonging to any group will be viewable to every Phis user, e.g. to every person owning a Phis account.
+An information assigned to no group is by default set as public. For instance, an experiment not belonging to any group will be viewable to every PHIS user, e.g. to every person owning a PHIS account.
 Research data requiring authrorizations to be accessed to could become public data after several years. *to confirm*
 
 ### Groups levels of access
@@ -105,7 +106,7 @@ Research data requiring authrorizations to be accessed to could become public da
 
 ### Groups properties
 Only admin-users are able to view the list of user groups within the `Tools > Groups` menu, not visible from a guest user account.
-For instance, the public account *guestphis* has no access to this menu.
+For instance, the public account *guestPHIS* has no access to this menu.
 
 From the `Tools > Groups` menu, admin-users get an overview the main properties of all users groups:
 
@@ -122,7 +123,7 @@ Groups metadata can be modified with the <span class="btn btn-primary">Update</s
 Within the `Groups` menu, one can create a new one with the
 <span class="btn btn-success">Create Group</span> button.
 
-`URI`. The group URI is automatically created by Phis web service which uses the **Name** of the group provided by the user.
+`URI`. The group URI is automatically created by PHIS web service which uses the **Name** of the group provided by the user.
 
 `Organism`. Name of the organism employing the group members.
 If a group includes persons from various organisms, instead of an organism name, a project name, or else, can be provided.
@@ -144,10 +145,10 @@ A scientific supervisor can consider creating two distinct groups acceding to th
 
 `Description`. Complete plain text description of the user group, preferably provided in English language.
 
-`Members`. Email of the Phis persons that will be part of the new group.
+`Members`. Email of the PHIS persons that will be part of the new group.
 This field in the group creation is crucial, but can also be modified at a later time.
-Persons are selected from a predefined list of the email identifiying them in Phis.
+Persons are selected from a predefined list of the email identifiying them in PHIS.
 
 Note that even persons without an account (persons that are not users) can be added to the new group.
 
-Completing the group creation within Phis is then achieved by clicking on the <span class="btn btn-success">Create</span> button.
+Completing the group creation within PHIS is then achieved by clicking on the <span class="btn btn-success">Create</span> button.

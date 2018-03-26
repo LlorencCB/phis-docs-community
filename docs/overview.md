@@ -19,7 +19,7 @@ Interoperability between experiments and phenotyping infrastructures :
 - syntactic interoperability: know how to transmit an information in a common form.
 - technological interoperability: know how to communicate with one another.
 
-## Phis Purposes
+## PHIS Purposes
 
 ### For whom is PHIS2 developed ?
 TODO

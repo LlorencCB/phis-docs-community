@@ -11,5 +11,6 @@ pages:
    - Community: community.md
    - Tools: tools.md
    - Events: events.md
-   - Object tracking: object-tracking-example.md
+   - Object Tracking: object-tracking-example.md
    - Ontologies: ontologies.md
+   - About: about.md

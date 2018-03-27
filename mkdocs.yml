@@ -1,5 +1,5 @@
 site_name: PHIS
-#theme: bootstrap
+theme: bootstrap
 extra_css:
    - "css/bootstrap.css"
    - "css/site.css"

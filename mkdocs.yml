@@ -4,14 +4,19 @@ extra_css:
    - "css/bootstrap.css"
    - "css/site.css"
    - "css/navbar.less"
+extra_javascript:
+    - "js/bootsrap.js"
+    - "js/bootsrap.min.js"
+    - "js/npm.js"
 pages:
    - Home: index.md
-   - Experimental Organization: experimental-organization.md
-   - Data: datamenu.md
-   - Community: community.md
-   - Tools: tools.md
-   - Events: events.md
-   - Object Tracking: object-tracking-example.md
+   - User Guide:
+        - Experimental Organization: experimental-organization.md
+        - Community: community.md
+        - Data: datamenu.md
+        - Events: events.md
+        - Object Tracking: object-tracking-example.md
+        - Tools: tools.md
    - Ontologies: ontologies.md
-   - EMPHASIS: emphasis_ontology.md
    - About: about.md
+

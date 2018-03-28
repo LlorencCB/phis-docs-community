@@ -4,8 +4,7 @@ January 2018
 
 EMPHASIS, WP4 (*F. Tardieu, X. Draye, R. Pieruschka, C. Pommier and P. Neveu main authors, with participation of P.E. Alary, M. Janni, M. Morrisse, T. Pridmore, B. Usadel and D. Wells*).
 
-The ESFRI listed project EMPHASIS aims at a synergistic development and long-term operation of plant phenotyping infrastructure in Europe [https://emphasis.plant-phenotyping.eu/](https://emphasis.plant-phenotyping.eu/) by developing
-tools and methods for multi-scale phenotyping, allowing one to analyze genotype performance and trait diversity in current and future European environmental conditions. EMPHASIS aims at:
+The ESFRI listed project EMPHASIS aims at a synergistic development and long-term operation of plant phenotyping infrastructure in Europe [https://emphasis.plant-phenotyping.eu/](https://emphasis.plant-phenotyping.eu/) by developing tools and methods for multi-scale phenotyping, allowing one to analyze genotype performance and trait diversity in current and future European environmental conditions. EMPHASIS aims at:
 
 - Developing an integrated pan-European network of instrumented phenotyping platforms able to test genotypes in a diversity of agro-climatic scenarios, in controlled and field conditions.
 - Linking data acquisition to a European-level data management system and to state-of-the art crop models to simulate plants and crops in current and future climates.

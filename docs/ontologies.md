@@ -6,9 +6,11 @@ PHIS relies on two application ontologies compliant with the standards of the [*
 
 The **Ontology for Experimental Phenotypic Objects (OEPO)**, allows assigning types (e.g. Experimental organization and context, Environment type, Germplasm, Physical Object) to objects involved in phenotyping experiments and defining specialization hierarchy between them according to the specificities of the installations and experiments.
 
-The OEPO ontology contains three main groups ob objects, namely *Experimental Context*, *Scientific Objects* and *Genetic Properties*. 
+The OEPO ontology contains three main groups ob objects, namely *Experimental Context*, *Scientific Objects* and *Genetic Properties*.
 
-The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment.
+The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment. 
+
+A number of the terms and definitions follow recommendations adopted by the ESFRI listed project [**EMPHASIS**](emphasis_ontology.md).
 
 ![oepo_expcont](img/oepo_expcont.png)
 

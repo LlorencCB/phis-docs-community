@@ -54,5 +54,4 @@ As an exemple  the simple Workflow `TEST Echo workflow` is shown, containing dif
 
 ![workflow2](img/workflow2.png)
 
-<br>
 <sup>1</sup>Parent *et al*. 2010. Modelling temperature-compensated physiological rates, based on the co-ordination of responses to temperature of developmental processes. *Journal of Experimental Botany* 61: 2057-2069

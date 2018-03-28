@@ -9,7 +9,7 @@ PHENOME will provide France with an up-to-date, versatile, high throughput infra
 
 ## INRA TEAMS
 
-PHIS is the result of collaboration between two research teams of the INRA - the french National Institute for Agricultural Research - of Montpellier: the [LEPSE](https://www6.montpellier.inra.fr/lepse_eng/) and [MISTEA](https://www6.montpellier.inra.fr/mistea_eng/).
+PHIS is the result of collaboration between two research teams of the INRA - the french National Institute for Agricultural Research - of Montpellier: the [**LEPSE**](https://www6.montpellier.inra.fr/lepse_eng/) and [**MISTEA**](https://www6.montpellier.inra.fr/mistea_eng/).
 
 ## PHIS Contributors
 
@@ -17,4 +17,4 @@ Pascal Neveu, Anne Tireau, Nadine Hilgert, Vincent Nègre, Patrick Moreau, Jonat
 
 ## Availability and Requirements
 
-The source code, user and developer documentation of latest version of PHIS are available at [(https://github.com/OpenSILEX)](https://github.com/OpenSILEX) under a GNU Affero General Public License version 3.0. PHIS requires Java JRE or JDK version 1.7, PHP 5.6, PostgreSQL 10.1, RDF4J 2.2.1, MongoDB 3.4.4 and R 3.3.3 and runs on Linux, Mac, and Microsoft Windows platforms.
+The source code, user and developer documentation of latest version of PHIS are available at [**(https://github.com/OpenSILEX)**](https://github.com/OpenSILEX) under a GNU Affero General Public License version 3.0. PHIS requires Java JRE or JDK version 1.7, PHP 5.6, PostgreSQL 10.1, RDF4J 2.2.1, MongoDB 3.4.4 and R 3.3.3 and runs on Linux, Mac, and Microsoft Windows platforms.

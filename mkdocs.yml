@@ -1,5 +1,5 @@
 site_name: PHIS
-theme: bootstrap
+#theme: bootstrap
 extra_css:
    - "css/bootstrap.css"
    - "css/site.css"
@@ -13,10 +13,5 @@ pages:
    - Events: events.md
    - Object Tracking: object-tracking-example.md
    - Ontologies: ontologies.md
-<<<<<<< HEAD
    - EMPHASIS: emphasis_ontology.md
    - About: about.md
-=======
-   - EMPHASIS: emphasis_ontologie.md
-   - About: about.md
->>>>>>> 22a015ed6b4268d71f2a86ff5ee15cc3cab09beb

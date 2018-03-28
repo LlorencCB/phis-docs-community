@@ -14,9 +14,7 @@ For some installations having CCTVs or webcams, access is provided.
 
 ## Quick Response Code Generator
 
-The tools menu contains a Quick response (QR) code generator. <button type="button" class="btn btn-default btn-sm">
-          <span class="glyphicon glyphicon-qrcode"></span> Qrcode
-        </button>
+The tools menu contains a Quick response (QR) code generator. <button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-qrcode"></span> Qrcode </button>
 
 First, an experiment has to be chosen, and the list of plants or plots can be displayed.
 

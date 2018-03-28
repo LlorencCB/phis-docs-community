@@ -24,7 +24,6 @@ Searching filters allow selecting for scientfic objects such as plants, plots or
 
 For instance, the search of *arch* in the `Uri` box and *241* in the `Alias` box results in three different outputs:
 
-
 | URI                       | Alias                                                 | Genotype      | Type             |
 |---------------------------|-------------------------------------------------------|---------------|------------------|
 | m3p:/arch/2017/c17000241  | 0241/DZ_PG_35/ZM4358/WW/Rep_TS_1/05_01/ARCH2017-03-30 | m3p:/g/iPG164 | vocabulary:Plant |

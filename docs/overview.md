@@ -8,8 +8,7 @@ TODO
 ### Data provenance
 TODO
 
-reproducibility crisis ([Ioannidis, 2005](https://doi.org/10.1371/journal.pmed.0020124
-))
+reproducibility crisis ([Ioannidis, 2005](https://doi.org/10.1371/journal.pmed.0020124))
 
 replicability and reproducibility
 

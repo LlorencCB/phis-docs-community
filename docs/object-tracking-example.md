@@ -77,10 +77,17 @@ Detailed information of object characteristics and annotations or events is disp
 
 ### Environmental conditions
 
-This feature allows to follow the environmental conditions sesnsed by a given plant. This is of particular interest when plants are transfered between installations or compartments with different environmental conditions. In the exemple presented here, `plant 241` is sequentially monitored in two installations over 50 days. The experiment takes place in `Installation 1` [(http://www.phenome-fppn.fr/m3p/phenoarch)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform) for daily measurements of biovolume and transpiration, and then the plant is moved to `Installation 2` [(http://www.phenome-fppn.fr/m3p/phenodyn)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENODYN-platform) for ten days where was subjected to a thermal stress (May 19 to May 29) before being harvested. As shown in the graph below, environmental conditions sensed by the plant largely differ between the two installations, so a proper tracking tool is essential.
+This feature allows to follow the environmental conditions sesnsed by a given plant. This is of particular interest when plants are transfered between installations or compartments with different environmental conditions. In the exemple presented here, `plant 241` is sequentially monitored in two installations over 50 days. The experiment takes place in `Installation 1` [(**http://www.phenome-fppn.fr/m3p/phenoarch**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform "PHENOARCH platform") for daily measurements of biovolume and transpiration, and then the plant is moved to `Installation 2` [(**http://www.phenome-fppn.fr/m3p/phenodyn**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENODYN-platform "PHENODYN platform") for ten days where was subjected to a thermal stress (May 19 to May 29) before being harvested. As shown in the graph below, environmental conditions sensed by the plant largely differ between the two installations, so a proper tracking tool is essential.
 
 
+IMAGE!!
 
 ### Time courses of variables
 
-For instance `biovolume` over time can be displayed together with the annotations and events (i.e. sowing, harvesting) that occured to a given plant:
+For instance `biovolume` over time can be displayed together with the annotations and events (e.g. sowing, harvesting) that occured to a given plant:
+
+![objecttrack5](img/objecttrack5.png)
+
+Events displayed in green boxes along the time axis can be explored by clicking on. For instance, clicking on the box displaying `Harvesting of the plant` allows exploring all the information related to such event:
+
+![objecttrack6](img/objecttrack6.png)

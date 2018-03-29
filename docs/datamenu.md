@@ -4,7 +4,7 @@ The Data menu contains tools for advanced data querying, visualization features 
 
 ## Images
 
-Raw images (e.g. RGB, hemispherical,...), thumbnails and analysed images (e.g. segmented images) stored on the distributed storage system [**iRODS**](https://irods.org/), can be accessed using a filtering form based on `URIs`, `Experiments`, `Genotypes` and `Dates`
+Raw images (e.g. RGB, hemispherical,...), thumbnails and analysed images (e.g. segmented images) stored on the distributed storage system [**iRODS**](https://irods.org/ "iRODS"), can be accessed using a filtering form based on `URIs`, `Experiments`, `Genotypes` and `Dates`
 
 ![Example images](img/example_images.png)
 
@@ -36,7 +36,7 @@ Graphs can be exported into different formats (i.e. PDF, JPG, PNG, SVG).
 
 ## Data Analysis
 
-PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing ([**R Markdown**](https://rmarkdown.rstudio.com/)). Different R ([**R Core Team, 2015**](https://www.r-project.org/)) packages (‘*dplyr*’, ‘*mongolite*’, ‘*RPostgreSQL*’, ‘*jsonlite*’, ‘*httr*’, ‘*urltools*’) are also used to  link databases and the Web User Interface. Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods).
+PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing ([**R Markdown**](https://rmarkdown.rstudio.com/ "R Markdown")). Different R ([**R Core Team, 2015**](https://www.r-project.org/ "R project")) packages (‘*dplyr*’, ‘*mongolite*’, ‘*RPostgreSQL*’, ‘*jsonlite*’, ‘*httr*’, ‘*urltools*’) are also used to  link databases and the Web User Interface. Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods).
 
 ![Data analysis menu](img/data_analysis.png)
 
@@ -46,7 +46,7 @@ For instance, a `Thermal Time Calculation Report` allows calculating the progres
 
 ## Workflows
 
-Workflow feature icluded in PHIS enables computational analysis and workflows through the scientific platform [**Galaxy**](https://galaxyproject.org/).
+Workflow feature icluded in PHIS enables computational analysis and workflows through the scientific platform [**Galaxy**](https://galaxyproject.org/ "Galaxy project").
 
 As an exemple  the simple Workflow `TEST Echo workflow` is shown, containing different attributes and input parameters:
 
@@ -54,4 +54,4 @@ As an exemple  the simple Workflow `TEST Echo workflow` is shown, containing dif
 
 ![workflow2](img/workflow2.png)
 
-<sup>1</sup>Parent *et al*. 2010. Modelling temperature-compensated physiological rates, based on the co-ordination of responses to temperature of developmental processes. *Journal of Experimental Botany* 61: 2057-2069
+[<sup>1</sup>Parent *et al*. 2010. Modelling temperature-compensated physiological rates, based on the co-ordination of responses to temperature of developmental processes. *Journal of Experimental Botany* 61: 2057-2069](https://doi.org/10.1093/jxb/erq003 "Parent et al. 2010")

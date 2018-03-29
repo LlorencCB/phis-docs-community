@@ -17,7 +17,7 @@ Besides, several projects can participate to the same experimentation.
 Projects fact sheets are all public, i.e. visible for every PHIS user, including those unrelated to them.
 However, experimental data included in a project is also necessarily related to a given experiment.
 This data is accessible only to users who belong to a group (either owner or guest) authorized to access the experimentation it is related to: access rights are managed by experiment and not by project.
-Please see the [Restrictions to a group](../community/#restrictions-to-a-group) section of this documentation for further details on data access matters.
+Please see the [**Restrictions to a group**](../community/#restrictions-to-a-group) section of this documentation for further details on data access matters.
 
 The complete list of projects is available in the `Projects` menu, accessible from PHIS top navigation bar.
 The projects list is preceded by a research bar enabling the user to filter projects by their acronym, their main source of funding, and their start and end dates.
@@ -43,7 +43,7 @@ The mandatory fields, followed by a red asterisk, are:
 However, it is highly recommended to fill every field. If possible, fields requiring plain text (keywords, description) should be answered to in English.
 
 `URI`. The project URI is automatically created using the acronym provided by the user.
-The URI creation respects the [w3 recommandations](https://www.w3.org/TR/cooluris/).
+The URI creation respects the [**w3 recommandations**](https://www.w3.org/TR/cooluris/).
 
 `Acronym`. Short and meaningful, the acronym will be the preferred way to refer to the created project.
 The acronym provided here is usually the one of the research project.
@@ -69,7 +69,7 @@ If the end date of the project is unknown, the start date can be used also as **
 
 `Scientific Contacts`. Email adresses of the scientists involved in the project.
 The email adresses refer uniquely to persons existing on PHIS.
-If unavailable in the predefined list, emails can be added to PHIS from the `Persons` menu, prior to the new project creation. Please see the [Persons](../community/#persons) section of this documentation for further details.
+If unavailable in the predefined list, emails can be added to PHIS from the `Persons` menu, prior to the new project creation. Please see the [**Persons**](../community/#persons) section of this documentation for further details.
 
 `Administrative Contacts`. Email adresses of the administrative personnel linked to the project (e.g. human ressources people).
 The email adresses refer uniquely to persons existing on PHIS.
@@ -101,7 +101,7 @@ The data types found in PHIS experiments are including but not limited to :
 
 ### What are experiment properties ?
 Contrary to projects, experiments information sheets are not public, but accessible only to the PHIS members which are part of the groups involved in these experiments.
-Please go to [Access rights](../community/#access-rights) for further details on this matter.
+Please go to [**Access rights**](../community/#access-rights) for further details on this matter.
 
 From the `Experiments` menu, a PHIS user has access to the list of experiments it has the rights to access to.
 Every experiment on this list is characterized by :
@@ -117,7 +117,7 @@ From **Home / Experiments**, one can click on the eye icon on the right to see a
 ![experiment-list](img/experiments_list.png)
 
 Further information on the experiment is provided on its information sheet, such as the groups of users that have been given access to the experiment's data.
-For more detail on experimental data access restrictions, see the section [Restrictions to a group](../community/#restrictions-to-a-group).
+For more detail on experimental data access restrictions, see the section [**Restrictions to a group**](../community/#restrictions-to-a-group).
 
 ![experiment-view](img/experiments_view.png)
 
@@ -168,7 +168,7 @@ This field will later be removed in the upcoming developments of PHIS.
 
 `Scientific supervisors`. Email adresses of the experiment supervisor(s).
 The email adresses refer uniquely to persons existing on PHIS.
-If unavailable in the predefined list, emails can be added to PHIS from the `Persons` menu, prior to the new project creation. Please see the [Persons](../community/#persons) section of this documentation for further details.
+If unavailable in the predefined list, emails can be added to PHIS from the `Persons` menu, prior to the new project creation. Please see the [**Persons**](../community/#persons) section of this documentation for further details.
 
 `Technical supervisors`. Email adresses of the technicians and scientists (including phd students, interns, etc.) involved in the experiment implementation.
 The email adresses refer uniquely to persons existing on PHIS.
@@ -182,7 +182,7 @@ A link to the internal ontology is under development.
 This field is crucial when creating an experiment.
 Only a PHIS user belonging to at least one of the groups specified in this field will be authorized to access the newly created experiment.
 An experiment assigned to no group is by default set as public.
-Please go to [Access rights](../community/#access-rights) for further details on this matter.
+Please go to [**Access rights**](../community/#access-rights) for further details on this matter.
 
 `Objective`. A short synthesis of the experiemnt objectives is to be provided in plain text, preferably in English. A more complete description will be asked in the **Comment** field.
 
@@ -195,7 +195,7 @@ Completing the experiment creation within PHIS is then achieved by clicking on t
 From **Home / Experiments**, one can click on the eye icon on the right to see the newly created experiment information sheet.
 
 The <span class="btn btn-warning">Add document</span> button at the top of the experiment sheet remains orange until a first document has been added, e.g. an experimental design.
-See the [Documents](../experimental-organization/#documents) section below for further information on documents.
+See the [**Documents**](../experimental-organization/#documents) section below for further information on documents.
 
 Once created, the experiment specifics can be modified with the <span class="btn btn-primary">Update</span> button.
 
@@ -225,7 +225,7 @@ When agronomical objects of a map are selected, their attributes (alias within t
 #### Graphics from datasets
 
 Another feature provided by the `Map Visualization` menu is the possibility to plot graphics from datasets associated to an experiment.
-A first step is to select on the map agronomical objects (e.g. plots) as explained [above](../experimental-organization/#objects-selection).
+A first step is to select on the map agronomical objects (e.g. plots) as explained [**above**](../experimental-organization/#objects-selection).
 In order to order to create clear graphics,one should avoid selecting too many objects at the same time.
 At that point, a new section, **Dataset(s) Visualization (On selected plot(s))**, appears under the map where the objects have been selected.
 The second step is to select the variable of the dataset from which a graphic should be produced.
@@ -278,9 +278,9 @@ These metadata contain the document properties:
 
 Information of a document can later be changed, while the document itself cannot be modified.
 
-Metadata are specified with [Dublin Core](http://dublincore.org/documents/dces/) recommendations.
+Metadata are specified with [**Dublin Core**](http://dublincore.org/documents/dces/) recommendations.
 Metadata enables the documents to be stored in the PHIS triplestore.
-The expression of Dublin Core metadata using the Resource Description Framework is described [Here](http://dublincore.org/documents/dc-rdf/).
+The expression of Dublin Core metadata using the Resource Description Framework is described [**Here**](http://dublincore.org/documents/dc-rdf/).
 
 ### Upload a document
 
@@ -295,7 +295,7 @@ A document title does not have to match the name of the uploaded file it is impo
 No specific naming convention is required for filling this field.
 
 `Language`. Language in which the document is provided.
-In accordance to the [Dublin Core Element Set v1.1](http://dublincore.org/documents/1999/07/02/dces) document, the value of the language element is defined by [RFC 1766](http://www.ietf.org/rfc/rfc1766.txt) which includes a two-character language code taken from the [ISO639](http://xml.coverpages.org/iso639a.html) standard.
+In accordance to the [**Dublin Core Element Set v1.1**](http://dublincore.org/documents/1999/07/02/dces) document, the value of the language element is defined by [**RFC 1766**](http://www.ietf.org/rfc/rfc1766.txt) which includes a two-character language code taken from the [**ISO639**](http://xml.coverpages.org/iso639a.html) standard.
 The language code should be provided in lower case (e.g. *fr* for French, *en* for English, etc.).
 
 `Creation Date`. Date of the document creation.
@@ -338,6 +338,7 @@ However, the document can be downloaded with the <span class="btn btn-primary">D
 ## Agronomical Objects
 
 ### Object types
+
 Plant phenotyping experiments all revolve around one entity of interest : plants !
 PHIS experiments are focused on a given type of elements : **agronomical objects**, which are no more than declinations of plants, at various scales :
 
@@ -365,7 +366,7 @@ The list of objects associated with a search result, and their metadata, can be 
 Agronomical objects information can also be accessed through the `Experiments` menu.
 After having selected an experiment, the agronomical objects linked to it can be displayed on a map.
 Moreover, selecting objects on such a map provides additional information on the attributes of these objects.
-See the [Map Visualization](../experimental-organization/#map-visualization) section for more information on that matter.
+See the [**Map Visualization**](../experimental-organization/#map-visualization) section for more information on that matter.
 
 ### Importing plots
 Within the `Agronomical objects` menu, PHIS users can import new plots with the
@@ -405,9 +406,9 @@ plot4;POLYGON (( ... ... , ... ... ));URI Experiment X;URI Species Y; varietyB;T
 A single plot cannot correspond to several species, variety, experimental modality or repetition.
 On the contrary, the same species, variety, experimental modality or repetition can be used for several plots.
 
-Plots are geometrical objects such as polygons, provided according to [Well-known text standard](https://en.wikipedia.org/wiki/Well-known_text)).
-Geometry coordinates are formatted in [WGS84](http://spatialreference.org/ref/epsg/wgs-84/), alsa known as the [EPSG4326](http://epsg.io/4326) geodetic coordinate system.
-More information on this system [here](https://confluence.qps.nl/qinsy/en/world-geodetic-system-1984-wgs84-29855173.html).
+Plots are geometrical objects such as polygons, provided according to [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text)).
+Geometry coordinates are formatted in [**WGS84**](http://spatialreference.org/ref/epsg/wgs-84/), alsa known as the [**EPSG4326**](http://epsg.io/4326) geodetic coordinate system.
+More information on this system [**here**](https://confluence.qps.nl/qinsy/en/world-geodetic-system-1984-wgs84-29855173.html).
 
 The first step in order to import plots is therefore to create a .csv file containing all the new plots information, as is reminded below :
 
@@ -434,11 +435,12 @@ After having pressed the <span class="btn btn-success">Create</span> bottom butt
 
 ### Visualize agronomical objects
 
-See [Map Visualization](../experimental-organization/#map-visualization) section.
+See [**Map Visualization**](../experimental-organization/#map-visualization) section.
 
 ## Variables
 
 ### Variables properties
+
 PHIS variables characterize **agronomical objects** or their **environment**.
 Variables characterizing agronomical objects are **phenotypic variables**, while variables characterizing the environment in which those agronomical objects are studied are refered to as **environmental variables**.
 PHIS variables can be either directly mesured by a sensor, either computed from one or several variables.
@@ -450,7 +452,7 @@ Moreover, the usage of unequivocal variables in experiments is a necessary step 
 PHIS variables are listed in the `Variables` menu.
 A PHIS user with a restricted access (e.g. *guestPHIS*) is likely to be unable to see the `Variables` menu, since there is no variable for her/him to see.
 
-Variable definition is based on the [Crop Ontology guidelines](http://www.cropontology.org/CropOntology_Curation_Guidelines_20160510.pdf).
+Variable definition is based on the [**Crop Ontology guidelines**](http://www.cropontology.org/CropOntology_Curation_Guidelines_20160510.pdf).
 Therefore, PHIS variables are all unequivocally characterized by the following triplet:
 
 - a single **trait**, either a phenotypic trait or an environmental feature, which is the subject of the new variable
@@ -463,7 +465,7 @@ Further information on a given variable is available on its information sheet, a
 
 A variable information sheet provides knowledge on this variable, but also on the three elements that define it, namely the **trait**, **method** and **unit** related to this variable.
 The variable and those three defining features all display a **label**, that should be meaningful and unique, but does not have to be so, an **URI** which is however unique, a **Definition** (or **Comment**) meant for human comprehension, and **related references** meant for Semantic Web applications.
-Reference to external ontologies is achieved through [SKOS](https://www.w3.org/2004/02/skos/intro) standards
+Reference to external ontologies is achieved through [**SKOS**](https://www.w3.org/2004/02/skos/intro) standards
 
 *NB: for now, only phenotypic variables are present*
 
@@ -540,15 +542,15 @@ When a variable is created, multiple references using SKOS can be stated, using 
 
 The main ontologies differ on the following features:
 
-The **[AgroPortal](http://agroportal.lirmm.fr/)** project aims to offer a reference ontology repository for agronomy, reusing the NCBO BioPortal technology, as stated on the [FAO website](http://aims.fao.org/agroportal).
+The **[AgroPortal](http://agroportal.lirmm.fr/)** project aims to offer a reference ontology repository for agronomy, reusing the NCBO BioPortal technology, as stated on the [**FAO website**](http://aims.fao.org/agroportal).
 The scientific outcomes and the experience of the biomdical domain are thus exploited and transposed into the agronomy domain, including plants, food, environment and possibly animal sciences.
 
 **[AGROVOC](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/)** is a controlled vocabulary covering all areas of interest of the United Nations Food and Agriculture Organization (FAO), including food, nutrition, agriculture, fisheries, forestry, environment, etc.
 It is published by the FAO and edited by a community of experts.
-More information is provided on the [FAO website](http://aims.fao.org/standards/agrovoc/concept-scheme).
+More information is provided on the [**FAO website**](http://aims.fao.org/standards/agrovoc/concept-scheme).
 
 The **[Plant Ontology (PO)](http://www.ontobee.org/ontology/po)** is a structured vocabulary and database resource that links plant anatomy, morphology, growth and development to plant genomics data.
-The URL provided [here](http://browser.planteome.org/amigo) redirects visitors to the Planteome website since PO is developed by the Planteome Project, alongside with other reference ontologies listed in the [Planteome Ontologies webpage](http://planteome.org/node/1).
+The URL provided [**here**](http://browser.planteome.org/amigo) redirects visitors to the Planteome website since PO is developed by the Planteome Project, alongside with other reference ontologies listed in the [**Planteome Ontologies webpage**](http://planteome.org/node/1).
 
 The **[Planteome](http://planteome.org/)** project is a centralized platform where reference ontologies for plants will be used to access plant genomics data.
 
@@ -559,8 +561,8 @@ The **[Unit Ontology](http://www.ontobee.org/ontology/UO)** gathers metrical uni
 `Variable Definition`. Text defining clearly the concept underlying the new variable.
 This definition should ideally be provided in English.
 
-
 ### Modifiy existing variables
+
 So far, it is not possible to modify or delete an existing variable, other than by asking a PHIS developper.
 
 ## Dataset
@@ -589,14 +591,14 @@ Thus, each element of a dataset is associated uniquely with :
 Datasets are available indirectly through the `Experiments` menu, selecting an experiment and then accessing to its map through the <span class="btn btn-info">Map Visualization</span> button.
 
 Graphics can be extracted from the experiment datasets in the **Dataset(s) Visualization (On selected plot(s))** section, which appears under the map of the experiment when agronomical objects are selected.
-How to create such graphics is explained in the [Map Visualization](../experimental-organization/#map-visualization) section of this documentation.
+How to create such graphics is explained in the [**Map Visualization**](../experimental-organization/#map-visualization) section of this documentation.
 
 ### Import Dataset
 
 Datasets can be added to PHIS through the `Dataset` menu in the top navigation bar.
 A PHIS user with a restricted access (e.g. *guestPHIS*) is likely to be unable to see the `Dataset` menu.
 Indeed, only users that are part of an owner group are authorized to add datasets to the experiments associated to this group.
-Go to the [Groups level of access](../community/#groups-level-of-access) section for further information on this issue.
+Go to the [**Groups level of access**](../community/#groups-level-of-access) section for further information on this issue.
 
 When adding a dataset to PHIS, three types of elements can be created :
 
@@ -605,7 +607,7 @@ When adding a dataset to PHIS, three types of elements can be created :
 - optionnal documents associated to the dataset
 
 `Quantitative Variable`. Mandatory field. Variable or list of the variables found in the added dataset.
-The variable(s) must have previously been defined in PHIS (see [Variables](../experimental-organization/#variables)).
+The variable(s) must have previously been defined in PHIS (see [**Variables**](../experimental-organization/#variables)).
 
 `Dataset Creation Date`. Mandatory field. Date in the YYYY-MM-DD (year-month-day) format matching to the day in which the imported data has been generated.
 Let's take the example of a drone flight performed two weeks before the data import, followed by the production of clean data from the flight images one week before the import.
@@ -618,7 +620,7 @@ Optionnal document giving indications on how the data has been created.
 If a single script (e.g. in R or python language) has been used to create the imported data, it should be uploaded here.
 If the data creation process has been more complex, a document (e.g. PDF or text) could be provided to describe it.
 The document import is performed via the <span class="btn btn-primary btn-file">Add Document Script</span> button.
-The metadata to provide is the same as in any PHIS document, see the [Upload a document](../experimental-organization/#upload-a-document) section.
+The metadata to provide is the same as in any PHIS document, see the [**Upload a document**](../experimental-organization/#upload-a-document) section.
 Only one document can be added to this field.
 More documents can be imported together with the dataset through the **Linked Document(s)** field.
 
@@ -629,7 +631,7 @@ For instance, if the data has been generated with Phenoscript v1.2, one can ment
 
 `Linked Document(s)`.
 Additionnal documents associated with the dataset and imported to PHIS.
-Click on the <span class="btn btn-primary btn-file">Add Document</span> button and then fill out the usual document creation form as described in the [Upload a document](../experimental-organization/#upload-a-document) section.
+Click on the <span class="btn btn-primary btn-file">Add Document</span> button and then fill out the usual document creation form as described in the [**Upload a document**](../experimental-organization/#upload-a-document) section.
 Multiple documents can be uploaded and associated to the imported dataset.
 Click several times on <span class="btn btn-primary btn-file">Add Document</span> in order to add several documents.
 
@@ -647,7 +649,7 @@ The dataset added to PHIS must respect some file rules :
 - the header contains the fields **AgronomicalObjectURI** and **Date**, and as many variable alias as there are added variables (see the .csv template that can be downloaded above the **Data File** field)
 - the agronomical objects are refered to by their respective URI
 - the date is refered to in the YYYY-MM-DD (year-month-date) format
-- variable values are provided as real number, since PHIS then stores numbers as [double-precision floating-point value](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
+- variable values are provided as real number, since PHIS then stores numbers as [**double-precision floating-point value**](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
 - numerical values decimal separators should be dots `.` but commas `,` are tolerated
 - no character strings, "NA" included, are tolerated as variable values : if a variable value is unknown, do not write anything (see example below)
 - no quotes for URIs, dates or variable values
@@ -664,8 +666,8 @@ URI2;2017-04-15;4.12;9
 URI2;2017-04-31;5.347687869;10
 ```
 
-The URI of the agronomical objects of a given experimentation can be found on the `Agronomical Objects` menu, using search filters, and then downloaded with the <span class="btn btn-primary">Download Search Result</span> button (see the [Object types](../experimental-organization/#object-types) of this documentation).
-All variables values of the imported dataset are associated with agronomical objects that must have been previously declared in PHIS (see [Importing plots](../experimental-organization/#importing-plots)).
+The URI of the agronomical objects of a given experimentation can be found on the `Agronomical Objects` menu, using search filters, and then downloaded with the <span class="btn btn-primary">Download Search Result</span> button (see the [**Object types**](../experimental-organization/#object-types) of this documentation).
+All variables values of the imported dataset are associated with agronomical objects that must have been previously declared in PHIS (see [**Importing plots**](../experimental-organization/#importing-plots)).
 
 The data file imported in PHIS can displays many fields (i.e. number of items in the header), but only the column matching with the expected fields will be kept.
 The expected fields and their name are provided in the .csv template provide by the *Download Template* link above the **Data File** field.
@@ -691,7 +693,7 @@ At the current stage of PHIS development, datasets cannot be modified nor delete
 ### Visualize Dataset
 
 Graphics extracted from PHIS datasets are available through the `Experiments` menu.
-See the [Map Visualization](../experimental-organization/#graphics-from-datasets) section of this documentation for further information.
+See the [**Map Visualization**](../experimental-organization/#graphics-from-datasets) section of this documentation for further information.
 
 ## Devices
 

@@ -4,7 +4,7 @@ January 2018
 
 EMPHASIS, WP4 (*F. Tardieu, X. Draye, R. Pieruschka, C. Pommier and P. Neveu main authors, with participation of P.E. Alary, M. Janni, M. Morrisse, T. Pridmore, B. Usadel and D. Wells*).
 
-The ESFRI listed project EMPHASIS aims at a synergistic development and long-term operation of plant phenotyping infrastructure in Europe [https://emphasis.plant-phenotyping.eu/](https://emphasis.plant-phenotyping.eu/) by developing tools and methods for multi-scale phenotyping, allowing one to analyze genotype performance and trait diversity in current and future European environmental conditions. EMPHASIS aims at:
+The ESFRI listed project EMPHASIS aims at a synergistic development and long-term operation of plant phenotyping infrastructure in Europe [**https://emphasis.plant-phenotyping.eu/**](https://emphasis.plant-phenotyping.eu/ "EMPHASIS") by developing tools and methods for multi-scale phenotyping, allowing one to analyze genotype performance and trait diversity in current and future European environmental conditions. EMPHASIS aims at:
 
 - Developing an integrated pan-European network of instrumented phenotyping platforms able to test genotypes in a diversity of agro-climatic scenarios, in controlled and field conditions.
 - Linking data acquisition to a European-level data management system and to state-of-the art crop models to simulate plants and crops in current and future climates.
@@ -16,7 +16,7 @@ This document proposes an ontology of objects involved in EMPHASIS and the ratio
 
 Distributed research infrastructures have different levels of organisation. Here we follow the general nomenclature provided by the EC,<sup>3,4</sup> , adapted to plant phenotyping. Furthermore, the organization of information systems requires precise definitions of words frequently used as synonyms in common language, but that in fact correspond to different concepts and practical uses. We attempt here to define these terms and their relationships (Fig. 1)
 
-![emphasis1](img/emphasis1.png)
+![emphasis1](img/emphasis1.png "Figure 1")
 
 ### 1.1. National infrastructure
 
@@ -123,4 +123,4 @@ across environmental gradients in mapping populations) into component traits. Th
 
 <sup>4</sup> https://portal.meril.eu/meril/4 https://ec.europa.eu/research/.../2016_charterforaccessto-ris.pdf
 
-<sup>5</sup> F. Tardieu, L. Cabrera-Bosquet, T. Pridmore, M. Bennett. 2017. Plant Phenomics, From Sensors to Knowledge. *Current Biology*, 27  R770-R783.
+<sup>5</sup> [F. Tardieu, L. Cabrera-Bosquet, T. Pridmore, M. Bennett. 2017. Plant Phenomics, From Sensors to Knowledge. *Current Biology*, 27  R770-R783.](https://doi.org/10.1016/j.cub.2017.05.055)

@@ -2,7 +2,7 @@
 
 The Events menu allows searching and visualising events and annotations performed in the different objects declared in the information system.
 
-Different filters can be applied based on `Dates`, `Type`, `Description` of events or the `Concern` object. As an example, searching for plant 795 (having the URI `m3p:/arch/2017/c17000795`) in the Concern box, results in five different events describing *sowing*, *thinning*, *installation of plant tutors*, an *incident* ocurred during imaging and *harvesting*:
+Different filters can be applied based on `Dates`, `Type`, `Description` of events or the `Concern` object. As an example, searching for plant 795 (having the URI `m3p:/arch/2017/c17000795`) in the **Concern** box, results in five different events describing *sowing*, *thinning*, *installation of plant tutors*, an *incident* ocurred during imaging and *harvesting*:
 
 ![Events](img/events2.png)
 
@@ -20,4 +20,4 @@ The harvesting event `http://www.phenome-fppn.fr/m3p/arch/2018/evc18_6851fb51-ef
 
 Further annotations can be added by clicking on the Annotation button <span class="btn btn-warning">Add Annotation</span>
 
-Annotations are mainly guided by the **OEEv ontology** and the [**Web Annotation Data Model**](https://www.w3.org/TR/annotation-model/) that allows annotating any object declared in the system and assigning motivation and purpose attributes to annotations (e.g. oa:describing, oa:identifying, oa:linking, oa: replying, etc.). [**Dublin Core**](http://dublincore.org/) properties such as **dcterms:created** or **dcterms:creator** are also used.
+Annotations are mainly guided by the [**OEEv ontology**](ontologies.md#OEEv) and the [**Web Annotation Data Model**](https://www.w3.org/TR/annotation-model/) that allows annotating any object declared in the system and assigning motivation and purpose attributes to annotations (e.g. oa:describing, oa:identifying, oa:linking, oa: replying, etc.). [**Dublin Core**](http://dublincore.org/) properties such as **dcterms:created** or **dcterms:creator** are also used.

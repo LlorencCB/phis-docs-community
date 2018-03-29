@@ -1,4 +1,7 @@
 site_name: PHIS
+site_url: http://www.mkdocs.org
+site_description: PHIS documentation with Markdown.
+site_author: PHIS Team
 #theme: bootstrap
 extra_css:
    - "css/bootstrap.css"
@@ -8,6 +11,7 @@ extra_javascript:
     - "js/bootsrap.js"
     - "js/bootsrap.min.js"
     - "js/npm.js"
+mdFiles: docs/*/*.md
 pages:
    - Home: index.md
    - User Guide:
@@ -19,4 +23,3 @@ pages:
         - Tools: tools.md
    - Ontologies: ontologies.md
    - About: about.md
-

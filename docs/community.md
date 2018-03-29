@@ -10,6 +10,7 @@ PHIS community is composed of persons which can be either:
 - **users**, term refering to persons linked to a PHIS account: they are provided with a password that they can change at any time. PHIS users are either classic users or administrators (admin).
 
 ### Create a person
+
 Within the `Persons` menu, a user can create a new person with the
 <span class="btn btn-success">Create Person</span> button displayed at the top left of the persons list.
 
@@ -67,10 +68,12 @@ Groups are selected from a the predefined list of groups found in PHIS.
 Moreover, when a new group is created, an existing person can be added to it from the **Group Creation** page.
 
 ### Manage a user account
+
 From the `Persons` menu, a user can manage its own account after clicking on the eye icon on the right of its name in order to view its personal information sheet.
 Both public information and password can be changed after clicking on the <span class="btn btn-primary">Update</span> button.
 
 ### Get an access to PHIS
+
 For those that do not own a PHIS account, they can ask a account to be created by either :
 
 - a PHIS user diplaying administrator rights
@@ -79,6 +82,7 @@ For those that do not own a PHIS account, they can ask a account to be created b
 ## Access rights
 
 ### Users levels of access
+
 User access rights depend on users groups.
 
 `Classic`: a classic user gets access to public data and data accessible to the groups the user belongs to.
@@ -89,15 +93,17 @@ An admin are usually platform or installation managers, as well as data managers
 There is generally no more than one or two admin per platform.
 
 ### Restrictions to a group
+
 A given information can be visible to specific groups. A PHIS user not belonging to those groups will not be able to view the data linked to them.
 The concepts that can be assigned to groups are experiments and the agronomical objects it contains.
 Currently, access rights are managed by experiment.
 
 ### Public data
-An information assigned to no group is by default set as public. For instance, an experiment not belonging to any group will be viewable to every PHIS user, e.g. to every person owning a PHIS account.
-Research data requiring authrorizations to be accessed to could become public data after several years. *to confirm*
+
+An information assigned to no group is by default set as public. For instance, an experiment not belonging to any group will be viewable to every PHIS user, e.g. to every person owning a PHIS account. Research data requiring authrorizations to be accessed to could become public data after several years. *to confirm*
 
 ### Groups levels of access
+
 `Guest`: members of a guest group can visualize the data linked to this guest group.
 
 `Owner`: in addition to the visualization rights given to guest groups members, owner groups members can modify the data belonging to the group.
@@ -105,21 +111,21 @@ Research data requiring authrorizations to be accessed to could become public da
 ## Groups
 
 ### Groups properties
-Only admin-users are able to view the list of user groups within the `Tools > Groups` menu, not visible from a guest user account.
-For instance, the public account *guestPHIS* has no access to this menu.
+
+Only admin-users are able to view the list of user groups within the `Tools > Groups` menu, not visible from a guest user account. For instance, the public account *guestPHIS* has no access to this menu.
 
 From the `Tools > Groups` menu, admin-users get an overview the main properties of all users groups:
 
 - the group URI (standardized, unique and persistent)
 - the group name
-- the group level of access (guest or owner), cf. [Access rights](../community/#access-rights)
+- the group level of access (guest or owner), cf. [**Access rights**](../community/#access-rights)
 
-From **Home / Groups**, admin-users can click on the eye icon on the right of a given group in order to view its information sheet.
-The additional information provided by the group sheet are a short description and the persons included in the group, identified by their email address.
+From **Home / Groups**, admin-users can click on the eye icon on the right of a given group in order to view its information sheet. The additional information provided by the group sheet are a short description and the persons included in the group, identified by their email address.
 
 Groups metadata can be modified with the <span class="btn btn-primary">Update</span> button by the admin-users.
 
 ### Create a group (admins only)
+
 Within the `Groups` menu, one can create a new one with the
 <span class="btn btn-success">Create Group</span> button.
 

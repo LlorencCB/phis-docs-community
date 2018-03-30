@@ -86,7 +86,24 @@ The *MoveTo* and *MoveFrom* concepts allow tracking objects:
 
 ![displacement](img/oeev_displacement.png "object displacement")
 
-### References
+## Use case
+
+The following semantic graph represents how both [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 23 in the field experiment DIA2017-05-19.
+
+![example_oepo_oeev](img/example_oepo_oeev.png)
+
+For better legibility objects are labelled with shortened alias names rather than using full URIs:
+
+- ***plot23***: http://www.phenome-fppn.fr/diaphen/2017/o17000023
+- ***plant114***: http://www.phenome-fppn.fr/diaphen/2017/17000114
+- ***leaf461***: http://www.phenome-fppn.fr/diaphen/2017/l17000461
+- ***DIA2017-05-19***: http://www.phenome-fppn.fr/diaphen/DIA2017-05-19
+- ***GPScoord***: Coordinates following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text)); Polygon ((3.973276 43.61203, 3.973306 43.61201, 3.973354 43.61205, 3.973324 43.61207, 3.973276 43.61203))
+- ***Romain***: chapuis@supagro.inra.fr
+- ***event54***: http://www.phenome-fppn.fr/diaphen/2018/evc18_5d209b0b-59fc-43ea-9908-532232f2b9d8
+- ***anno65***: http://www.phenome-fppn.fr/diaphen/2018/oac18_71d219fe-d8aa-4dc0-beac-f600eee5e9a7
+
+## References
 
 <sup>1</sup>Cooper L, Meier A, Laporte MA, Elser JL, Mungall C, Sinn BT, Cavaliere D, Carbon S, Dunn NA, Smith B, et al. 2018. The Planteome database: an integrated resource for reference ontologies, plant genomics and phenomics. *Nucleic Acids Research* 46: D1168-D1180.
 

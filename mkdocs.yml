@@ -22,4 +22,5 @@ pages:
         - Object Tracking: object-tracking-example.md
         - Tools: tools.md
    - Ontologies: ontologies.md
+   - Web Service API: webserviceAPI.md
    - About: about.md

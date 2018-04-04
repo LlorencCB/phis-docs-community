@@ -77,10 +77,11 @@ Detailed information of object characteristics and annotations or events is disp
 
 ### Environmental conditions
 
-This feature allows to follow the environmental conditions sesnsed by a given plant. This is of particular interest when plants are transfered between installations or compartments with different environmental conditions. In the exemple presented here, `plant 241` is sequentially monitored in two installations over 50 days. The experiment takes place in `Installation 1` [(**http://www.phenome-fppn.fr/m3p/phenoarch**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform "PHENOARCH platform") for daily measurements of biovolume and transpiration, and then the plant is moved to `Installation 2` [(**http://www.phenome-fppn.fr/m3p/phenodyn**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENODYN-platform "PHENODYN platform") for ten days where was subjected to a thermal stress (May 19 to May 29) before being harvested. As shown in the graph below, environmental conditions sensed by the plant largely differ between the two installations, so a proper tracking tool is essential.
+This feature allows to follow the environmental conditions sesnsed by a given plant. This is of particular interest when plants are transfered between installations or compartments with different environmental conditions. In the exemple presented here, `plant 241` is sequentially monitored in two installations over 50 days. The experiment takes place in `Installation 1` [(**http://www.phenome-fppn.fr/m3p/phenoarch**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENOARCH-platform "PHENOARCH platform") for daily measurements of biovolume and transpiration from April 6 to May 19, and then the plant is moved to `Installation 2` [(**http://www.phenome-fppn.fr/m3p/phenodyn**)](https://www6.montpellier.inra.fr/lepse_eng/M3P/PHENODYN-platform "PHENODYN platform") for ten days where was subjected to a thermal stress (May 19 to May 29) before being harvested (May 29). As shown in the graph below, `air temperature` sensed by the plant largely differ between the two installations, so a proper tracking tool is essential.
 
+Events displayed in green boxes along the time axis can be explored by clicking on. For instance, clicking on the box displaying `Transfer of the plants from PHENOARCH to PHENODYN` allows exploring all the information related to such event.
 
-IMAGE!!
+![objecttrack7](img/objecttrack7.png)
 
 ### Time courses of variables
 

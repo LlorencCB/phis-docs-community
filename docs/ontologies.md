@@ -10,7 +10,7 @@ The OEPO ontology contains three main groups of objects, namely *Experimental Co
 
 ### Experimental context
 
-The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment. 
+The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment.
 
 A number of the terms and definitions follow recommendations adopted by the ESFRI listed project [**EMPHASIS**](emphasis_ontology.md "EMPHASIS ontology").
 
@@ -27,7 +27,7 @@ By extension, a vector can also be a group of persons producing hand observation
 
 ![oepo_actuator](img/oepo_actuator.png)
 
-- *Sensing devices* are *devices* providing numerical data, e.g. environment sensors or cameras. Environmental sensors follow the [**Semantic Sensor Network Ontology**](http://purl.oclc.org/NET/ssnx/ssn "SSN ontology").
+- *Sensing devices* are *devices* providing numerical data, e.g. environment sensors or cameras. Environmental sensors follow the [**Semantic Sensor Network Ontology**](http://purl.oclc.org/NET/ssnx/ssn "SSN ontology"). For instance, a *Quantum sensor* is a *sensing device* and a sub-type of *Radiation sensor*.
 
 ![oepo_sensor](img/oepo_sensor.png)
 
@@ -88,7 +88,9 @@ The *MoveTo* and *MoveFrom* concepts allow tracking objects:
 
 ## Use case
 
-The following semantic graph represents how both [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 23 in the field experiment DIA2017-05-19.
+The following semantic graph represents how [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 23 in the field experiment DIA2017-05-19.
+
+Thus, the ***plot23*** is of type ***plot***, participates in the experiment ***DIA2017-05-19***, and has a spatial geometry (***GPScoord***) defined following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text). ***plot23*** contains the plant144 (which is of type ***plant***) which in turn contains ***leaf461*** (which is of type ***leaf***). All these temrms and semantic relationships between objects are defined following the [**OEPO**](ontologies#oepo) ontology. On the other hand, [**OEEv**](ontologies#oeev) ontology allows describing events cocerning the different obejects ivolved in an experiment. In the example presented here, the ***event54*** that concerns ***plot23*** is of type ***Incident*** and occurred the **"2017-06-21"**. ***event54*** is associated to the ***anno65*** which is of type ***Annotation***. This annotation, has a creator (***Romain***), a date of annotation (**"2018-XX-XX"**) and a body value describing the event (**"Plot lodged after the storm"**).
 
 ![example_oepo_oeev](img/example_oepo_oeev.png)
 
@@ -98,10 +100,12 @@ For better legibility objects are labelled with shortened alias names rather tha
 - ***plant114***: http://www.phenome-fppn.fr/diaphen/2017/17000114
 - ***leaf461***: http://www.phenome-fppn.fr/diaphen/2017/l17000461
 - ***DIA2017-05-19***: http://www.phenome-fppn.fr/diaphen/DIA2017-05-19
-- ***GPScoord***: Coordinates following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text)); Polygon ((3.973276 43.61203, 3.973306 43.61201, 3.973354 43.61205, 3.973324 43.61207, 3.973276 43.61203))
+- ***GPScoord***: Polygon ((3.973276 43.61203, 3.973306 43.61201, 3.973354 43.61205, 3.973324 43.61207, 3.973276 43.61203))
 - ***Romain***: chapuis@supagro.inra.fr
 - ***event54***: http://www.phenome-fppn.fr/diaphen/2018/evc18_5d209b0b-59fc-43ea-9908-532232f2b9d8
 - ***anno65***: http://www.phenome-fppn.fr/diaphen/2018/oac18_71d219fe-d8aa-4dc0-beac-f600eee5e9a7
+
+Note that not all objects and events associated to ***plot23*** are represented in this graph. Fulls details can be found in the PHIS user interface by searching for plot 23 in the different menus (**Events**, **Scientific objects**).
 
 ## References
 

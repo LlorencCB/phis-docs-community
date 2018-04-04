@@ -10,7 +10,9 @@ URIs of new objects can be manually created using the URI generator. Upon declar
 
 ## Video Channels
 
-For some installations having CCTVs or webcams, access is provided. 
+For some installations having CCTVs or webcams, access is provided.
+
+![cctv](img/cctv.png)
 
 ## Quick Response Code Generator
 
@@ -40,4 +42,4 @@ Your browser does not support the video tag.
 
 ## Web Service API
 
-The web service API enables interoperability and data exchange with other applications and systems. It can be accessed via a user account and a limited encrypted token. The web service  is based on RESTFul (Representational state transfer) developed using [**Swagger framework**](https://swagger.io/ "Swagger") and all services are available by using URIs. It is developed in Java with Jersey implementation of JAX-RS (Java API for RESTful Web Services) standard. It implements the [**Breeding API (BrAPI)**](http://www.brapi.org/ "BrAPI"), which specifies a standard interface for plant phenotype databases to serve data to crop breeding applications. Web service outputs use the data-interchange format JSON (JavaScript Object Notation). The Web services and access are described at [**http://web.supagro.inra.fr/phis/phenomeapi/api-docs/**](http://web.supagro.inra.fr/phis/phenomeapi/api-docs/) and are available to authorized client programs.
+An link to the [Web Service API](webserviceAPI.md) is provided.

@@ -45,7 +45,7 @@ By extension, a vector can also be a group of persons producing hand observation
 
 ## OEEv
 
-The **Ontology of Experimental Events (OEEv)**, characterises events that occur during an experiment, e.g.  dates of sowing, application of a given treatment, harvesting, measurements or sampling for -omic measurements, or any category of technical problem. The OEEv ontology contains four groups of events, namely *Facicility Management*, *Scientific Object Management*, *Trouble* and *Displacement*.
+The **Ontology of Experimental Events (OEEv)**, characterises events that occur during an experiment, e.g.  dates of sowing, application of a given treatment, harvesting, measurements or sampling for -omic measurements, or any category of technical problem. The OEEv ontology contains **five** groups of events, namely *Facicility Management*, *Scientific Object Management*, *Phenology*, *Trouble* and *Displacement*.
 
 ### Facility Management
 
@@ -68,6 +68,13 @@ The *Scientific Object Mangament* contains different sub-categories of events re
 - *Stacking* refers to the action of putting plant tutors
 
 ![scientificobject](img/oeev_scientific_object_management.png "Scientific Object Management")
+
+### Phenology
+
+The *Phenology* refers to the set of events related to the diffrenet phenological stages of plants.
+
+
+**QUELQUE IMAGE**
 
 ### Trouble
 

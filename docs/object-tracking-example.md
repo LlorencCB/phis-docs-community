@@ -20,9 +20,9 @@ Searching filters allow selecting for scientfic objects such as plants, plots or
 </div>
 <span class="btn btn-primary">Search</span>
 
-![objecttrack1](img/objecttrack1.png)
+For instance, the search of **arch** in the `Uri` box and **241** in the `Alias` box results in three different outputs:
 
-For instance, the search of *arch* in the `Uri` box and *241* in the `Alias` box results in three different outputs:
+![objecttrack1](img/objecttrack1.png)
 
 | URI                       | Alias                                                 | Genotype      | Type             |
 |---------------------------|-------------------------------------------------------|---------------|------------------|
@@ -30,7 +30,7 @@ For instance, the search of *arch* in the `Uri` box and *241* in the `Alias` box
 | m3p:/arch/2017/c17001241  | 1241/DZ_PG_46/ZM4374/WD/Veg_3/21_41/ARCH2017-03-30    | m3p:/g/iPG195 | vocabulary:Plant |
 | m3p:/arch/2017/lc17000280 | 1241/DZ_PG_46/ZM4374/WD/Veg_3/21_41/6/ARCH2017-03-30  | m3p:/g/iPG195 | vocabulary:Leaf  |
 
-Wheras the first two results correpond to plants (Type = vocabulary:Plant) the third result corresponds to a Leaf (Type = vocabulary:Leaf). Objects (either plants or leaves) have their own URI. 
+Wheras the first two results correpond to plants (Type = **vocabulary:Plant**) the third result corresponds to a Leaf (Type = **vocabulary:Leaf**). Objects (either plants or leaves) have their own URI. 
 The filtered objects can be individually selected by clicking on left boxes and are automatically placed in a basket for further analyses.
 
 Selected objects can be visualised by clicking on the shopping car icon <a href="#" class="btn btn-warning"><span class="glyphicon glyphicon-shopping-cart"></span></a>

@@ -7,13 +7,15 @@ Your browser does not support the video tag.
 
 ## Projects
 
-### What are projects ?
+### What are projects?
+
 A research project is the higher level of organisation in PHIS.
 It is generally the object of a contract or a grant agreement between the laboratory performing the research activities and funding agencies providing the financial support.
 A project can hold many experiments from various experimental campaigns.
 Besides, several projects can participate to the same experimentation.
 
-### What are project properties ?
+### What are project properties?
+
 Projects fact sheets are all public, i.e. visible for every PHIS user, including those unrelated to them.
 However, experimental data included in a project is also necessarily related to a given experiment.
 This data is accessible only to users who belong to a group (either owner or guest) authorized to access the experimentation it is related to: access rights are managed by experiment and not by project.
@@ -27,6 +29,7 @@ Further information on a given project is available on its information sheet, ac
 ![project-menu](img/projects-list_eye-icon.png)
 
 ### Create a project
+
 Within the `Projects` menu, one can create a new project with the
 <span class="btn btn-success">Create Project</span> button.
 
@@ -87,7 +90,8 @@ The email adresses refer uniquely to persons existing on PHIS.
 
 ## Experiments
 
-### What are experiments ?
+### What are experiments?
+
 Field plant phenotyping experimentations are refered to in PHIS as **Experiments**.
 Experiments in PHIS form self-sustained organizational units occuring in a delimited and known time frame.
 Every agronomical objects and environmental data stored in PHIS field have to be related to an experiment.
@@ -99,7 +103,8 @@ The data types found in PHIS experiments are including but not limited to :
 - analysis, workflows and their associated results
 - documents giving a deeper understanding of the experiments
 
-### What are experiment properties ?
+### What are experiment properties?
+
 Contrary to projects, experiments information sheets are not public, but accessible only to the PHIS members which are part of the groups involved in these experiments.
 Please go to [**Access rights**](../community/#access-rights) for further details on this matter.
 
@@ -127,7 +132,8 @@ Jump to the section [Map Visualization](../experimental-organization/#map-visual
 The use of the other buttons, <span class="btn btn-primary">Update</span> and <span class="btn btn-warning">Add document</span>, is described at the end of the next section entitled [Create an experiment](../experimental-organization/#create-an-experiment).
 
 ### Create an experiment
-Within the `Experiments` menu, a PHIS user can create a new experiment with the
+
+Within the `Experiments` menu, a PHIS user (not available for guests) can create a new experiment with the
 <span class="btn btn-success">Create Experiment</span> button.
 
 Tool tips are provided for some fields: they appear on the left hand side when one drags the pointer on those fields.
@@ -369,6 +375,7 @@ Moreover, selecting objects on such a map provides additional information on the
 See the [**Map Visualization**](../experimental-organization/#map-visualization) section for more information on that matter.
 
 ### Importing plots
+
 Within the `Agronomical objects` menu, PHIS users can import new plots with the
 <span class="btn btn-success">Create</span> button.
 
@@ -450,7 +457,7 @@ Consequently, when a user refers to a variable in an experiment, there is no amb
 Moreover, the usage of unequivocal variables in experiments is a necessary step towards a more intelligible, reliable and reproducible Science.
 
 PHIS variables are listed in the `Variables` menu.
-A PHIS user with a restricted access (e.g. *guestPHIS*) is likely to be unable to see the `Variables` menu, since there is no variable for her/him to see.
+<!---A PHIS user with a restricted access (e.g. *guestPHIS*) is likely to be unable to see the `Variables` menu, since there is no variable for her/him to see.--->
 
 Variable definition is based on the [**Crop Ontology guidelines**](http://www.cropontology.org/CropOntology_Curation_Guidelines_20160510.pdf).
 Therefore, PHIS variables are all unequivocally characterized by the following triplet:
@@ -467,9 +474,10 @@ A variable information sheet provides knowledge on this variable, but also on th
 The variable and those three defining features all display a **label**, that should be meaningful and unique, but does not have to be so, an **URI** which is however unique, a **Definition** (or **Comment**) meant for human comprehension, and **related references** meant for Semantic Web applications.
 Reference to external ontologies is achieved through [**SKOS**](https://www.w3.org/2004/02/skos/intro) standards
 
-*NB: for now, only phenotypic variables are present*
+<!---*NB: for now, only phenotypic variables are present*--->
 
 ### Create variables, traits, methods and units
+
 Every variable found on PHIS has been previously created by a PHIS user.
 Within the `Variables` menu, one can create a new project with the
 <span class="btn btn-success">Create Variable</span> button.
@@ -575,7 +583,7 @@ High-throughput plant phenotyping platforms commonly set up experiments in which
 Plant growth dynamcis are analyzed through the evolution of various variable (e.g. LAI, NDVI, etc.) through time.
 
 At this stage of development, all dataset variables are quantitative.
-No qualitative variables are saved in the datasets : a variable from a dataset can only assume numerical values and no character string is allowed.
+No qualitative variables are saved in the datasets: a variable from a dataset can only assume numerical values and no character string is allowed.
 
 A dataset typically displays information on many agronomical objects.
 These objects can be described by several variables.
@@ -706,3 +714,11 @@ Different filters including `URI`, `Device Alias`, `Device Type`, `Position` and
 Detailed information of each device including the brand, model, and dates of purchase, service and calibration together with technical documentation can be accessed by clicking on the <a href="#"><span class="glyphicon glyphicon-eye-open"></span> </a> icon placed on the right. Outputs of sensors can also be visualised.
 
 ![devices](img/devices2.png)
+
+## Germplasm
+
+Germplasm menu allows searching for the different genetic material declared in PHIS. Different filters based on mathematical oprators allow refining the search by applying different constraints.
+
+In the exemple described here, the query search for `genotype **iPG082** `displaying` leaf area > 0.4 m²` and `biovolume > 400g` 
+
+![search1](img/search1.png)

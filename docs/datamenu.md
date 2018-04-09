@@ -24,6 +24,8 @@ Images can be displayed and scrolled by clicking in the <a href="#"> <span class
 
 Advanced data querying allows rapid and efficient visualisation of images and monitoring variables guided by filtering tools based on semantics and rules such as mathematical operators.
 
+For instance, 
+
 ## Graphic visualisation
 
 The graphic visualisation menu contains features for displaying images, dynamic graphs of static or time courses of phenotypic and environmental variables, which are automatically adapted to the particular experimental settings and variables, such as greenhouse or field. For instance, the users may request a dynamic visualization of image analyses and watering results based on different filtering options (image angles, genotypes, plants, treatments). Such interactive figures allow exploring dynamic variables over time (e.g. plant area or water-use).

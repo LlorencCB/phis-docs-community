@@ -85,7 +85,7 @@ Events displayed in green boxes along the time axis can be explored by clicking 
 
 ### Time courses of variables
 
-For instance `biovolume` over time can be displayed together with the annotations and events (e.g. sowing, harvesting) that occured to a given plant:
+For instance `biovolume` over time can be displayed together with the annotations and events (e.g. sowing, harvesting) that occured to a given plant. White and orange panels represent the installations **phenoarch** and **phenodyn**, respectively:
 
 ![objecttrack5](img/objecttrack5.png)
 

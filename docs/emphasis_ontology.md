@@ -115,12 +115,8 @@ across environmental gradients in mapping populations) into component traits. Th
 
 ### References
 
-<sup>1</sup> https://EPPN2020.plant-phenotyping.eu/
-
-<sup>2</sup> https://github.com/MIAPPE
-
-<sup>3</sup> https://ec.europa.eu/research/infrastructures/index_en.cfm?pg=access
-
-<sup>4</sup> https://portal.meril.eu/meril/4 https://ec.europa.eu/research/.../2016_charterforaccessto-ris.pdf
-
-<sup>5</sup> [F. Tardieu, L. Cabrera-Bosquet, T. Pridmore, M. Bennett. 2017. Plant Phenomics, From Sensors to Knowledge. *Current Biology*, 27  R770-R783.](https://doi.org/10.1016/j.cub.2017.05.055)
+- <sup>1</sup> https://EPPN2020.plant-phenotyping.eu/
+- <sup>2</sup> https://github.com/MIAPPE
+- <sup>3</sup> https://ec.europa.eu/research/infrastructures/index_en.cfm?pg=access
+- <sup>4</sup> https://portal.meril.eu/meril/4 https://ec.europa.eu/research/.../2016_charterforaccessto-ris.pdf
+- <sup>5</sup> F. Tardieu, L. Cabrera-Bosquet, T. Pridmore, M. Bennett. 2017. Plant Phenomics, From Sensors to Knowledge. [*Current Biology*, 27  R770-R783.](https://doi.org/10.1016/j.cub.2017.05.055)

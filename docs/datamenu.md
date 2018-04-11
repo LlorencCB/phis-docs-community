@@ -38,13 +38,28 @@ Graphs can be exported into different formats (i.e. PDF, JPG, PNG, SVG).
 
 ## Data Analysis
 
-PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing ([**R Markdown**](https://rmarkdown.rstudio.com/ "R Markdown")). Different R ([**R Core Team, 2015**](https://www.r-project.org/ "R project")) packages (‘*dplyr*’, ‘*mongolite*’, ‘*RPostgreSQL*’, ‘*jsonlite*’, ‘*httr*’, ‘*urltools*’) are also used to  link databases and the Web User Interface. Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods).
+PHIS includes extensible scientific computing modules based on R packages for calculating elaborated variables and generating experimental summaries and reports. Automatic reporting is based on data query through the interface and R integration in text processing ([**R Markdown**](https://rmarkdown.rstudio.com/ "R Markdown")). Different R ([**R Core Team, 2015**](https://www.r-project.org/ "R project")) packages (‘*dplyr*’, ‘*mongolite*’, ‘*RPostgreSQL*’, ‘*jsonlite*’, ‘*httr*’, ‘*urltools*’) are also used to  link databases and the Web User Interface. Basic reports include daily, weekly or final overviews of experiments, with standard statistics and graphic visualization of averaged queried traits. Extended reports may include specific calculation of traits and environmental conditions associated to a given plant or genotype. In particular, new variables can be calculated for a given experiment based on the joint use of phenotypic and environmental data together with associated metadata to plants and traits (e.g. events, methods). 
+
+Six analysis are available:
+
+- Daily Greenhouse Report
+- Daily Field Report
+- Environment Field Report
+- Environment Greenhouse Report 
+- Global Greenhouse Report
+- Thermal time Calculation Report
+
 
 ![Data analysis menu](img/data_analysis.png)
 
 For instance, a `Thermal Time Calculation Report` allows calculating the progression of thermal time for each `experiment`, taking into account diffrent parameters like the `species`, the `method` used (e.g. baseline temperature or Parent *et al*. method<sup>1</sup>) the `event` to start computation (e.g. sowing, emergence,thinning) or a given calendar date, and `temperature data` (air or leaf temperatures)
 
 ![Data analysis menu](img/thermal_time_report.png)
+
+
+An HTML report of this analysis and a .csv file containing the calculated thermal time is provided at the end of the analysis:
+
+![thermal_time_report_results](img/thermal_time_report_results.png)
 
 ## Workflows
 

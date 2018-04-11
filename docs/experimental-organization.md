@@ -94,7 +94,7 @@ The email adresses refer uniquely to persons existing on PHIS.
 
 Field plant phenotyping experimentations are refered to in PHIS as **Experiments**.
 Experiments in PHIS form self-sustained organizational units occuring in a delimited and known time frame.
-Every agronomical objects and environmental data stored in PHIS field have to be related to an experiment.
+Every scientific objects and environmental data stored in PHIS field have to be related to an experiment.
 Experiments include both raw and cleaned data.
 The data types found in PHIS experiments are including but not limited to :
 
@@ -127,7 +127,7 @@ For more detail on experimental data access restrictions, see the section [**Res
 ![experiment-view](img/experiments_view.png)
 
 On top of the experiment information sheet, several buttons are displayed.
-The buttons <span class="btn btn-info">Map Visualization</span> and <span class="btn btn-success">Generate Map</span> enable the visualization of the agronomical objects (e.g. plots) of the experiment on a map centered on the experiment intallation location.
+The buttons <span class="btn btn-info">Map Visualization</span> and <span class="btn btn-success">Generate Map</span> enable the visualization of the scientific objects (e.g. plots) of the experiment on a map centered on the experiment intallation location.
 Jump to the section [Map Visualization](../experimental-organization/#map-visualization) for more information on experiment maps.
 The use of the other buttons, <span class="btn btn-primary">Update</span> and <span class="btn btn-warning">Add document</span>, is described at the end of the next section entitled [Create an experiment](../experimental-organization/#create-an-experiment).
 
@@ -209,29 +209,29 @@ Once created, the experiment specifics can be modified with the <span class="btn
 
 #### Objects selection
 
-Agronomical objects associated with a given experiment, for example plots, can be displayed on a map, thanks to their geopositioning informations.
-In PHIS, a map refers to a dynamic map where all the agronomical objects of a given experiment are represented.
+scientific objects associated with a given experiment, for example plots, can be displayed on a map, thanks to their geopositioning informations.
+In PHIS, a map refers to a dynamic map where all the scientific objects of a given experiment are represented.
 
-After having imported agronomical objects linked to an experiment, the map associated with this experiment is created within the `Experiments` menu through the <span class="btn btn-success">Generate Map</span> button.
+After having imported scientific objects linked to an experiment, the map associated with this experiment is created within the `Experiments` menu through the <span class="btn btn-success">Generate Map</span> button.
 
-Once the map of an experiment has been created, there's no need to re-create it if no new agronomical object has been linked to this experiment.
+Once the map of an experiment has been created, there's no need to re-create it if no new scientific object has been linked to this experiment.
 In such cases, the access to the experiment map is realized within the `Experiments` menu through the <span class="btn btn-info">Map Visualization</span> button.
 
 The map of an experiment is dynamic: one can zoom in and out with the **+** and **-** sign at the top left corner of the map, or simply using the mouse wheel.
 The map visualization also works with a touchscreen.
 Map rotation is performed pressing `Alt + Shift` while draging the mouse pointer.
-Selecting multiple contiguous agronomical objects is performed pressing `Ctrl + Left Click` and then dragging the mouse pointer (still holding the mouse left click).
+Selecting multiple contiguous scientific objects is performed pressing `Ctrl + Left Click` and then dragging the mouse pointer (still holding the mouse left click).
 
 ![map-visualization-ctrl](img/map-visualization_ctrl.png)
 
-When agronomical objects of a map are selected, their attributes (alias within the experiment, crop specied, variety, modality, repetition) are displayed in a table under the map.
+When scientific objects of a map are selected, their attributes (alias within the experiment, crop specied, variety, modality, repetition) are displayed in a table under the map.
 
 ![map-visualization-selected](img/map-visualization_selected.png)
 
 #### Graphics from datasets
 
 Another feature provided by the `Map Visualization` menu is the possibility to plot graphics from datasets associated to an experiment.
-A first step is to select on the map agronomical objects (e.g. plots) as explained [**above**](../experimental-organization/#objects-selection).
+A first step is to select on the map scientific objects (e.g. plots) as explained [**above**](../experimental-organization/#objects-selection).
 In order to order to create clear graphics,one should avoid selecting too many objects at the same time.
 At that point, a new section, **Dataset(s) Visualization (On selected plot(s))**, appears under the map where the objects have been selected.
 The second step is to select the variable of the dataset from which a graphic should be produced.
@@ -250,14 +250,14 @@ Variable values associated to a later date will not appear in the graphic.
 
 The last step is to press the <span class="btn btn-primary">Search</span> button, which will lead to the creation of a graphic displaying according to a time axis the variable values associated to :
 
-- the agronomical objects selected on the map
+- the scientific objects selected on the map
 - the variable selected in the **Quantitative Variable** field
 - potentially the time window between **Date Start** and **Date End** if those fields have been filled out
 
 On the new graphic, the time is displayed on the abscissa axis and the variable on the ordinate axis.
-Each points of the same color are associated to the same agronomical object which is identified below the graphic by its URI.
+Each points of the same color are associated to the same scientific object which is identified below the graphic by its URI.
 In future PHIS developments, objects alias instead of URIs will be used as curve labels.
-Variable values and curve associated to an agronomical object can be masked by clicking on its associated curve label which at this point changes from black to grey.
+Variable values and curve associated to an scientific object can be masked by clicking on its associated curve label which at this point changes from black to grey.
 Clicking a second time on the label as the effect to show again the previously hidden curve.
 
 ## Documents
@@ -341,12 +341,12 @@ However, the document can be downloaded with the <span class="btn btn-primary">D
 
 ![update-document](img/document-update.png)
 
-## Agronomical Objects
+## Scientific Objects
 
 ### Object types
 
 Plant phenotyping experiments all revolve around one entity of interest : plants !
-PHIS experiments are focused on a given type of elements : **agronomical objects**, which are no more than declinations of plants, at various scales :
+PHIS experiments are focused on a given type of elements : **Scientific objects**, which are no more than declinations of plants, at various scales :
 
 - **plant organ** : part of a given plant
 - **plant** : single individual, displaying a single genotype, which is refered to as a **variety**
@@ -354,32 +354,27 @@ PHIS experiments are focused on a given type of elements : **agronomical objects
 - **block** : combination of plots, generally forming an environmentally homogeneous entity
 - **field** : large spatial unit that includes plots and potentially blocks
 
-These agronomical objects, forming the basic units of experimentations, are observed through time, and consequently constitute the origin of phenotypic data.
-A given agronomical object is required to be associated with one experiment, and one only.
-Phenotypic data created in an experiment, whether is it directly measured, calculated or estimated, is necessarily linked to agronomical objects.
+These scientific objects, forming the basic units of experimentations, are observed through time, and consequently constitute the origin of phenotypic data.
+A given sceientific object is required to be associated with one experiment, and one only.
+Phenotypic data created in an experiment, whether is it directly measured, calculated or estimated, is necessarily linked to sceientific objects.
 
-Every agronomical object is uniquely identified through a standardized URI.
+Every scieentific object is uniquely identified through a standardized URI.
 Metadata is associate to objects under the form of attributes : alias, experiment modality, etc.
 The data associated with these objects correspond with the values of phenotypic variables associated
 
-The complete list of agronomical objects is available in the `Agronomical Objects` menu, accessible from PHIS top navigation bar.
-A PHIS user with a restricted access (e.g. *guestPHIS*) is likely to be unable to see the `Agronomical Objects` menu, since there are no objects for her/him to see.
-The agronomical objects list is preceded by a research bar enabling the user to filter projects by their URI, Alias, type, and the experience they are linked to.
-The list of objects associated with a search result, and their metadata, can be retrieved as a .csv file with the <span class="btn btn-primary">Download Search Result</span> button.
+The complete list of scientific objects is available in the `scientific Object Tracking` menu, accessible from PHIS top navigation bar.
 
-![objects-list](img/agronomical-objects_list.png)
+![objecttrack1](img/objecttrack1.png)
 
-Agronomical objects information can also be accessed through the `Experiments` menu.
-After having selected an experiment, the agronomical objects linked to it can be displayed on a map.
-Moreover, selecting objects on such a map provides additional information on the attributes of these objects.
-See the [**Map Visualization**](../experimental-organization/#map-visualization) section for more information on that matter.
+Scientific objects information can also be accessed through the `Experiments` menu.
+After having selected an experiment, the scientific objects linked to field experiments can be displayed on a map.Moreover, selecting objects on such a map provides additional information on the attributes of these objects. See the [**Map Visualization**](../experimental-organization/#map-visualization) section for more information on that matter.
 
 ### Importing plots
 
-Within the `Agronomical objects` menu, PHIS users can import new plots with the
+Within the `Scientific objects` menu, PHIS users can import new plots with the
 <span class="btn btn-success">Create</span> button.
 
-Plot, which are agronomical objects, are imported into PHIS through a .csv file containing on its first line the following header :
+Plot, which are scientific objects, are imported into PHIS through a .csv file containing on its first line the following header :
 
 ```
 Alias;Geometry;ExperimentURI;Species;Variety;ExperimentModalities;Repetition
@@ -423,7 +418,7 @@ The first step in order to import plots is therefore to create a .csv file conta
 | :------------- | :------------- | :------------- | :---------- |:------------- | :------------- | :--------- |
 | expX_modY_plotZ       | POLYGON (( ... ... , ... ... ))       | http&#58;//www.phenome-fppn.fr/.../...   | http&#58;//www.phenome-fppn.fr/id/species/...    | e.g. varietyX      | e.g. nitrogen-1     | e.g. 1 (or A-I)     |
 
-THe second step is to import the .csv file through the <span class="btn btn-primary">Browse</span> button, at the bottom right of the `Home / Agronomical Objects / Create Agronomical Object ` menu.
+THe second step is to import the .csv file through the <span class="btn btn-primary">Browse</span> button, at the bottom right of the `Home / Scientific Objects / Create Scientific Object ` menu.
 
 ![new-objects-browse](img/create-object_browse.png)
 
@@ -436,11 +431,11 @@ Only on file at a time can be imported.
 
 ![new-objects-create](img/create-object_click-create.png)
 
-After having pressed the <span class="btn btn-success">Create</span> bottom button the number of imported agronomical objects is displayed.
+After having pressed the <span class="btn btn-success">Create</span> bottom button the number of imported scientific objects is displayed.
 
 ![new-objects-success](img/create-object_result.png)
 
-### Visualize agronomical objects
+### Visualize scientific objects
 
 See [**Map Visualization**](../experimental-organization/#map-visualization) section.
 
@@ -448,8 +443,8 @@ See [**Map Visualization**](../experimental-organization/#map-visualization) sec
 
 ### Variables properties
 
-PHIS variables characterize **agronomical objects** or their **environment**.
-Variables characterizing agronomical objects are **phenotypic variables**, while variables characterizing the environment in which those agronomical objects are studied are refered to as **environmental variables**.
+PHIS variables characterize **scientific objects** or their **environment**.
+Variables characterizing scientific objects are **phenotypic variables**, while variables characterizing the environment in which those scientific objects are studied are refered to as **environmental variables**.
 PHIS variables can be either directly mesured by a sensor, either computed from one or several variables.
 
 Every variable produced by an experiment must have been previously created in PHIS, and every variable created in PHIS has to be defined unambuigusously.
@@ -577,7 +572,7 @@ So far, it is not possible to modify or delete an existing variable, other than 
 
 ### Dataset properties
 
-The heart of experiments is to produce datasets associated with the agronomical variables it studies.
+The heart of experiments is to produce datasets associated with the scientific variables it studies.
 In PHIS, each dataset is associated to an experiment.
 High-throughput plant phenotyping platforms commonly set up experiments in which plant growth is monitored.
 Plant growth dynamcis are analyzed through the evolution of various variable (e.g. LAI, NDVI, etc.) through time.
@@ -585,20 +580,20 @@ Plant growth dynamcis are analyzed through the evolution of various variable (e.
 At this stage of development, all dataset variables are quantitative.
 No qualitative variables are saved in the datasets: a variable from a dataset can only assume numerical values and no character string is allowed.
 
-A dataset typically displays information on many agronomical objects.
+A dataset typically displays information on many scientific objects.
 These objects can be described by several variables.
 Each one of these variables can assume diverse values at different dates.
 In order to avoid confusion, each element of a dataset should then be understood as a triplet object-time-variable.
 Thus, each element of a dataset is associated uniquely with :
 
-- a single agronomical object (e.g. a plot)
+- a single scientific object (e.g. a plot)
 - a single date (the day of the data acquisition)
 - a single variable (a quantitative variable used to monitor the measured or calculated trait)
 - a single variable numerical value (the value of the variable cited above)
 
 Datasets are available indirectly through the `Experiments` menu, selecting an experiment and then accessing to its map through the <span class="btn btn-info">Map Visualization</span> button.
 
-Graphics can be extracted from the experiment datasets in the **Dataset(s) Visualization (On selected plot(s))** section, which appears under the map of the experiment when agronomical objects are selected.
+Graphics can be extracted from the experiment datasets in the **Dataset(s) Visualization (On selected plot(s))** section, which appears under the map of the experiment when scientific objects are selected.
 How to create such graphics is explained in the [**Map Visualization**](../experimental-organization/#map-visualization) section of this documentation.
 
 ### Import Dataset
@@ -652,10 +647,10 @@ Click several times on <span class="btn btn-primary btn-file">Add Document</span
 The dataset added to PHIS must respect some file rules :
 
 - the file must be a .csv file
-- the first line of the file is a header, every other additional row matches with a new element characterized by a single agronomical object, a single date and as many variable values as there are variables
+- the first line of the file is a header, every other additional row matches with a new element characterized by a single scientific object, a single date and as many variable values as there are variables
 - in a given row, each items are separated by a single semicolon `;`
-- the header contains the fields **AgronomicalObjectURI** and **Date**, and as many variable alias as there are added variables (see the .csv template that can be downloaded above the **Data File** field)
-- the agronomical objects are refered to by their respective URI
+- the header contains the fields **ScientificObjectURI** and **Date**, and as many variable alias as there are added variables (see the .csv template that can be downloaded above the **Data File** field)
+- the scientific objects are refered to by their respective URI
 - the date is refered to in the YYYY-MM-DD (year-month-date) format
 - variable values are provided as real number, since PHIS then stores numbers as [**double-precision floating-point value**](https://en.wikipedia.org/wiki/Double-precision_floating-point_format)
 - numerical values decimal separators should be dots `.` but commas `,` are tolerated
@@ -665,7 +660,7 @@ The dataset added to PHIS must respect some file rules :
 In the following example, the added dataset exhibits information on two objects, one of them (URI1) displaying values for one variable at three different dates, and the other one (URI2) displaying values for two variables at the same dates :
 
 ```
-AgronomicalObjectURI;Date;VariableAlias1;VariableAlias2
+ScientificObjectURI;Date;VariableAlias1;VariableAlias2
 URI1;2017-04-01;;5
 URI1;2017-04-15;;10.0
 URI1;2017-04-31;;12.00
@@ -674,8 +669,8 @@ URI2;2017-04-15;4.12;9
 URI2;2017-04-31;5.347687869;10
 ```
 
-The URI of the agronomical objects of a given experimentation can be found on the `Agronomical Objects` menu, using search filters, and then downloaded with the <span class="btn btn-primary">Download Search Result</span> button (see the [**Object types**](../experimental-organization/#object-types) of this documentation).
-All variables values of the imported dataset are associated with agronomical objects that must have been previously declared in PHIS (see [**Importing plots**](../experimental-organization/#importing-plots)).
+The URI of the scientific objects of a given experimentation can be found on the `Scientific Objects` menu, using search filters, and then downloaded with the <span class="btn btn-primary">Download Search Result</span> button (see the [**Object types**](../experimental-organization/#object-types) of this documentation).
+All variables values of the imported dataset are associated with scientific objects that must have been previously declared in PHIS (see [**Importing plots**](../experimental-organization/#importing-plots)).
 
 The data file imported in PHIS can displays many fields (i.e. number of items in the header), but only the column matching with the expected fields will be kept.
 The expected fields and their name are provided in the .csv template provide by the *Download Template* link above the **Data File** field.
@@ -719,6 +714,16 @@ Detailed information of each device including the brand, model, and dates of pur
 
 Germplasm menu allows searching for the different genetic material declared in PHIS. Different filters based on mathematical oprators allow refining the search by applying different constraints.
 
-In the exemple described here, the query search for `genotype **iPG082** `displaying` leaf area > 0.4 m²` and `biovolume > 400g` 
+For instance, the query of maize genotypes displaying `leaf area > 0.8 m²` gives two results:
+
+![search2](img/search2.png)
+
+Further, by clicking on one of the results (e.g. genotype **iPG234**) the user can visualise those plants corresponding to this gentotype,and those that validate de search criteria (i.e. **leaf area > 0.8 m²**) are highlited in green:
+
+![search3](img/search3.png)
+
+Multiple search criteria is supported, for instance, the query search for `genotype **iPG082**` displaying `leaf area > 0.4 m²` and `biovolume > 400g` displays all plants corresponding to this genotype validating these two criteria:
 
 ![search1](img/search1.png)
+
+![search4](img/search4.png)

@@ -33,13 +33,13 @@ By extension, a vector can also be a group of persons producing hand observation
 
 ### Scientific objects
 
- *Scientific objects* correspond to the different plant organization levels studied such as *whole plants* (the organism originating from a single seed, callus, rhizome or any other propagation mean), or *plots* (a community of plants located on a defined area of a field), but also other concepts defined at lower spatial scale (e.g. *leaf*, *silk*, *ear Inflorescence*). Terms present in this ontology map onto existing ontologies providing relevant concept hierarchies related to the anatomy, structure and phenotype of plants described in the [**Planteome project**](http://planteome.org/ "Planteome")<sup>1</sup> such as the [**Crop Ontology**](http://cropontology.org/ "Crop ontology")<sup>2</sup>, the [**Plant Ontology**](http://plantontology.org/ "Plant Ontology")<sup>3,4,5</sup>, the [**PATO**](http://www.obofoundry.org/ontology/pato.html "PATO"), and other ontological resources such as the [**AGROVOC**](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/ "AGROVOC")<sup>6</sup>. 
+ *Scientific objects* correspond to the different plant organization levels studied such as *whole plants* (the organism originating from a single seed, callus, rhizome or any other propagation mean), or *plots* (a community of plants located on a defined area of a field), but also other concepts defined at lower spatial scale (e.g. *leaf*, *silk*, *ear Inflorescence*). Terms present in this ontology map onto existing ontologies providing relevant concept hierarchies related to the anatomy, structure and phenotype of plants described in the [**Planteome project**](http://planteome.org/ "Planteome")<sup>1</sup> such as the [**Crop Ontology**](http://cropontology.org/ "Crop ontology")<sup>2</sup>, the [**Plant Ontology**](http://plantontology.org/ "Plant Ontology")<sup>3,4,5</sup>, the [**PATO**](http://www.obofoundry.org/ontology/pato.html "PATO"), the [**PPEO**](http://wheat.agroportal.lirmm.fr/ontologies/PPEO "PPEO"), and other ontological resources such as the [**AGROVOC**](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/ "AGROVOC")<sup>6</sup>. 
 
 ![oepo_scobject](img/oepo_scientificobject.png)
 
 ### Genetic properties
 
- *Genetic properties* refer to the diffrent attributes related to a germplasm entity such as the *species*, *genotype* or the *seedlot*. The [**FAO/Bioversity Multi Crop Passport Descriptors**](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/ "FAO/Bioversity Multi Crop Passport Descriptors")<sup>7,8</sup> is also used for germplasm identification.
+ *Genetic properties* refer to the different attributes related to a germplasm entity incuding the *Genus*, *Species*, *AccessionName*, *AccessionNumber*, *Variety*, *Seedlot* and *SeedLotSample*. These attributes follow the [**FAO/Bioversity Multi Crop Passport Descriptors**](https://www.bioversityinternational.org/e-library/publications/detail/faobioversity-multi-crop-passport-descriptors-v21-mcpd-v21/ "FAO/Bioversity Multi Crop Passport Descriptors")<sup>7,8</sup>.
 
 ![oepo_germplasm](img/oepo_germplasm.png)
 
@@ -86,6 +86,18 @@ The event *Trouble* is defined by three different sub-categories:
 
 ![trouble](img/oeev_trouble.png "Trouble")
 
+Several subtypes of incidents that ofter occur in platfortm and field experiments have been declared including:
+
+- *PotFall*
+- *Lodging*
+- *StuckPlant*
+- *PestAttack* which includes the *PestType* and *PestName*
+
+![incident](img/incidents.png "Incident")
+
+![incident](img/oeev_incident.png "Incident")
+
+
 ### Displacement (object tracking)
 
 The *Displacement* event has been created to follow the position in time and space of the different objects participating in experiments. For instance, plants are often transferred, during a single experiment, between installations or compartments with different environmental conditions. Similarly, sensors can be replaced or moved to different positions in the field or greenhouse.
@@ -95,24 +107,24 @@ The *MoveTo* and *MoveFrom* concepts allow tracking objects:
 
 ## Use case
 
-The following semantic graph represents how [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 23 in the field experiment DIA2017-05-19.
+The following semantic graph represents how [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 97 in the field experiment DIA2017-05-19.
 
-Thus, the ***plot23*** is of type ***plot***, participates in the experiment ***DIA2017-05-19***, and has a spatial geometry (***GPScoord***) defined following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text). ***plot23*** contains the plant144 (which is of type ***plant***) which in turn contains ***leaf461*** (which is of type ***leaf***). All these temrms and semantic relationships between objects are defined following the [**OEPO**](ontologies#oepo) ontology. On the other hand, [**OEEv**](ontologies#oeev) ontology allows describing events cocerning the different obejects ivolved in an experiment. In the example presented here, the ***event54*** that concerns ***plot23*** is of type ***Incident*** and occurred the **"2017-06-21"**. ***event54*** is associated to the ***anno65*** which is of type ***Annotation***. This annotation, has a creator (***Romain***), a date of annotation (**"2018-XX-XX"**) and a body value describing the event (**"Plot lodged after the storm"**).
+Thus, the ***plot97*** is of type ***plot***, participates in the experiment ***DIA2017-05-19***, and has a spatial geometry (***GPScoord***) defined following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text). ***plot97*** contains the plant144 (which is of type ***plant***) which in turn contains ***leaf461*** (which is of type ***leaf***). All these temrms and semantic relationships between objects are defined following the [**OEPO**](ontologies#oepo) ontology. On the other hand, [**OEEv**](ontologies#oeev) ontology allows describing events cocerning the different obejects ivolved in an experiment. In the example presented here, the ***event54*** that concerns ***plot97*** is of type ***Incident*** and occurred the **"2017-06-29"**. ***event54*** is associated to the ***anno65*** which is of type ***Annotation***. This annotation, has a creator (***Romain***), a date of annotation (**"2017-08-10"**) and a body value describing the event (**"Plot lodged after the storm"**).
 
 ![example_oepo_oeev](img/example_oepo_oeev.png)
 
 For better legibility objects are labelled with shortened alias names rather than using full URIs:
 
-- ***plot23***: http://www.phenome-fppn.fr/diaphen/2017/o17000023
-- ***plant114***: http://www.phenome-fppn.fr/diaphen/2017/17000114
-- ***leaf461***: http://www.phenome-fppn.fr/diaphen/2017/l17000461
+- ***plot97***: http://www.phenome-fppn.fr/diaphen/2017/o17000097
+- ***plant471***: http://www.phenome-fppn.fr/diaphen/2017/17000471
+- ***leaf1820***: http://www.phenome-fppn.fr/diaphen/2017/l17001820
 - ***DIA2017-05-19***: http://www.phenome-fppn.fr/diaphen/DIA2017-05-19
 - ***GPScoord***: Polygon ((3.973276 43.61203, 3.973306 43.61201, 3.973354 43.61205, 3.973324 43.61207, 3.973276 43.61203))
 - ***Romain***: chapuis@supagro.inra.fr
-- ***event54***: http://www.phenome-fppn.fr/diaphen/2018/evc18_5d209b0b-59fc-43ea-9908-532232f2b9d8
-- ***anno65***: http://www.phenome-fppn.fr/diaphen/2018/oac18_71d219fe-d8aa-4dc0-beac-f600eee5e9a7
+- ***event54***: http://www.phenome-fppn.fr/diaphen/eventInsertion_DIA2017-05-19event_3788430f-300a-4c30-8dff-2bdf7bcd9e49
+- ***anno65***: http://www.phenome-fppn.fr/diaphen/eventInsertion_DIA2017-05-19anno_22d75679-38de-4c58-b505-23ed39e180fa
 
-Note that not all objects and events associated to ***plot23*** are represented in this graph. Fulls details can be found in the PHIS user interface by searching for plot 23 in the different menus (**Events**, **Scientific objects**).
+Note that not all objects and events associated to ***plot97*** are represented in this graph. Fulls details can be found in the PHIS user interface by searching for plot 97 in the different menus (e.g. **Events**, **Scientific objects**).
 
 ## References
 

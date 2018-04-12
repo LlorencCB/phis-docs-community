@@ -23,4 +23,5 @@ pages:
         - Tools: tools.md
    - Ontologies: ontologies.md
    - Web Service API: webserviceAPI.md
+   - Help: help.md
    - About: about.md

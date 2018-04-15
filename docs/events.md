@@ -1,4 +1,4 @@
-# Events
+# Events and Annotations
 
 The Events menu allows searching and visualising events and annotations performed in the different objects declared in the information system.
 
@@ -18,6 +18,26 @@ The harvesting event `http://www.phenome-fppn.fr/m3p/arch/2018/evc18_6851fb51-ef
 
 ![events4](img/events4.png)
 
-Further annotations can be added by clicking on the Annotation button <span class="btn btn-warning">Add Annotation</span>
+# Annotations
 
-Annotations are mainly guided by the [**OEEv ontology**](ontologies#oeev) and the [**Web Annotation Data Model**](https://www.w3.org/TR/annotation-model/) that allows annotating any object declared in the system and assigning motivation and purpose attributes to annotations (e.g. oa:describing, oa:identifying, oa:linking, oa: replying, etc.). [**Dublin Core**](http://dublincore.org/) properties such as **dcterms:created** or **dcterms:creator** are also used.
+Annotations are mainly guided by the [**OEEv ontology**](ontologies#oeev) and the [**Web Annotation Data Model**](https://www.w3.org/TR/annotation-model/) that allows annotating any object declared in the system and assigning motivation and purpose attributes to annotations (e.g. oa:describing, oa:identifying, oa:linking, oa: replying, etc.). [**Dublin Core**](http://dublincore.org/) properties such as **dc:created** or **dc:creator** are also used. 
+
+```
+    'http://www.w3.org/ns/oa#describing' => 'oa:describing',
+    'http://www.w3.org/ns/oa#identifying' => 'oa:identifying',
+    'http://www.w3.org/ns/oa#moderating' => 'oa:moderating',
+    'http://www.w3.org/ns/oa#assessing' => 'oa:assessing',
+    'http://www.w3.org/ns/oa#bookmarking' => 'oa:bookmarking',
+    'http://www.w3.org/ns/oa#classifying' => 'oa:classifying',
+    'http://www.w3.org/ns/oa#commenting' => 'oa:commenting',
+    'http://www.w3.org/ns/oa#editing' => 'oa:editing',
+    'http://www.w3.org/ns/oa#highlighting' => 'oa:highlighting',        
+    'http://www.w3.org/ns/oa#linking' => 'oa:linking',
+    'http://www.w3.org/ns/oa#questioning' => 'oa:questioning',
+    'http://www.w3.org/ns/oa#replying' => 'oa:replying',
+    'http://www.w3.org/ns/oa#tagging' => 'oa:tagging',
+    
+```
+
+Annotations can be added by clicking on the Annotation button <span class="btn btn-warning">Add Annotation</span> present in the different menus
+

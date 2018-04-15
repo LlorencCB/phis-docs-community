@@ -10,9 +10,9 @@ The OEPO ontology contains three main groups of objects, namely *Experimental Co
 
 ### Experimental context
 
-The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment.
+The *Experimental context* refers to the set of environmental conditions, infrastructure and supporting equipment or resources necessary to conduct a given experiment in which plants, plots or group of plants are raised.
 
-A number of the terms and definitions follow recommendations adopted by the ESFRI listed project [**EMPHASIS**](emphasis_ontology.md "EMPHASIS ontology").
+A number of the terms and definitions follow recommendations adopted by the ESFRI listed project [**EMPHASIS**](emphasis_ontology.md "EMPHASIS ontology") and reuses accepted terms for establishing relations and describing experiments from OBO foundry such as the [**Plant Experimental Conditions Ontology**](http://purl.bioontology.org/ontology/PECO).
 
 ![oepo_expcont](img/oepo_expcont.png "Experimental context")
 
@@ -45,11 +45,11 @@ By extension, a vector can also be a group of persons producing hand observation
 
 ## OEEv
 
-The **Ontology of Experimental Events (OEEv)**, characterises events that occur during an experiment, e.g.  dates of sowing, application of a given treatment, harvesting, measurements or sampling for -omic measurements, or any category of technical problem. The OEEv ontology contains **five** groups of events, namely *Facicility Management*, *Scientific Object Management*, *Phenology*, *Trouble* and *Displacement*.
+The **Ontology of Experimental Events (OEEv)**, characterises  events that occur during an experiment, e.g.  dates of sowing, application of a given treatment, harvesting, measurements or sampling for -omic measurements, or any category of technical problem. The OEEv ontology contains **five** groups of events, namely *Facicility Management*, *Scientific Object Management*, *Phenology*, *Trouble* and *Displacement*.
 
 ### Facility Management
 
-The *Facility Management* refers to the set of actions related to the manage and maintenance infrastructure and supporting equipment. It describes events related to *servicing*, *maintenance* and *calibration* of *equipment* or *installations*.
+The *Facility Management* refers to the set of actions related to the management and maintenance infrastructure and supporting equipment. It describes events related to *servicing*, *maintenance* and *calibration* of *equipment* or *installations*.
 
 ![facility_management](img/oeev_facilitymanagement.png "facility_management")
 
@@ -71,10 +71,7 @@ The *Scientific Object Mangament* contains different sub-categories of events re
 
 ### Phenology
 
-The *Phenology* refers to the set of events related to the diffrenet phenological stages of plants.
-
-
-**QUELQUE IMAGE**
+The *Phenology* refers to the set of events related to the different phenological stages of plants.
 
 ### Trouble
 
@@ -86,17 +83,14 @@ The event *Trouble* is defined by three different sub-categories:
 
 ![trouble](img/oeev_trouble.png "Trouble")
 
-Several subtypes of incidents that ofter occur in platfortm and field experiments have been declared including:
+Several subtypes of incidents that ofter occur in platfortm or field experiments have been declared including:
 
 - *PotFall*
 - *Lodging*
 - *StuckPlant*
-- *PestAttack* which includes the *PestType* and *PestName*
+- *PestAttack* 
 
-![incident](img/incidents.png "Incident")
-
-![incident](img/oeev_incident.png "Incident")
-
+![incidents](img/incidents.png "Incidents")
 
 ### Displacement (object tracking)
 
@@ -105,13 +99,27 @@ The *MoveTo* and *MoveFrom* concepts allow tracking objects:
 
 ![displacement](img/oeev_displacement.png "object displacement")
 
+Events or simple annotations are annotated as shown in the following diagram following the [**Web Annotation Data Model**](https://www.w3.org/TR/annotation-model/) that allows assigning motivation and purpose attributes to annotations (e.g. oa:describing, oa:identifying, oa:linking, oa: replying, etc.). [**Dublin Core**](http://dublincore.org/) properties such as **dcterms:created** or **dcterms:creator** are also used.
+
+![annotexample](img/example_annotation.png)
+
+- Instances are depicted as coloured ellipses.
+- Classes are depicted as white rectangles.
+- Literals are depicted as white lozenges.
+- Relationships and properties are depicted as black lines.
+    
 ## Use case
 
 The following semantic graph represents how [**OEPO**](ontologies#oepo) and [**OEEv**](ontologies#oeev) ontologies interact for representing some of the characteristics and events of plot 97 in the field experiment DIA2017-05-19.
 
-Thus, the ***plot97*** is of type ***plot***, participates in the experiment ***DIA2017-05-19***, and has a spatial geometry (***GPScoord***) defined following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text). ***plot97*** contains the plant144 (which is of type ***plant***) which in turn contains ***leaf461*** (which is of type ***leaf***). All these temrms and semantic relationships between objects are defined following the [**OEPO**](ontologies#oepo) ontology. On the other hand, [**OEEv**](ontologies#oeev) ontology allows describing events cocerning the different obejects ivolved in an experiment. In the example presented here, the ***event54*** that concerns ***plot97*** is of type ***Incident*** and occurred the **"2017-06-29"**. ***event54*** is associated to the ***anno65*** which is of type ***Annotation***. This annotation, has a creator (***Romain***), a date of annotation (**"2017-08-10"**) and a body value describing the event (**"Plot lodged after the storm"**).
+Thus, the ***plot97*** is of type ***plot***, participates in the experiment ***DIA2017-05-19***, and has a spatial geometry (***GPScoord***) defined following the [**Well-known text standard**](https://en.wikipedia.org/wiki/Well-known_text). ***plot97*** contains the ***plant144*** (which is of type ***plant***) which in turn contains ***leaf461*** (which is of type ***leaf***). All these temrms and semantic relationships between objects are defined following the [**OEPO**](ontologies#oepo) ontology. On the other hand, [**OEEv**](ontologies#oeev) ontology allows describing events cocerning the different obejects involved in an experiment. In the example presented here, the ***event54*** that concerns ***plot97*** is of type ***Incident*** and occurred the **"2017-06-29"**. ***event54*** is associated to the ***anno65*** which is of type ***Annotation***. This annotation, has a creator (***Romain***), a date of annotation (**"2017-08-10"**) and a body value describing the event (**"Plot lodged after the storm"**).
 
 ![example_oepo_oeev](img/example_oepo_oeev.png)
+
+- Instances are depicted as coloured ellipses.
+- Classes are depicted as white rectangles.
+- Literals are depicted as white lozenges.
+- Relationships and properties are depicted as black lines.
 
 For better legibility objects are labelled with shortened alias names rather than using full URIs:
 
